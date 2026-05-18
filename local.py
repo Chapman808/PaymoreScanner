@@ -51,10 +51,8 @@ if __name__ == "__main__":
     r = requests.get(f"https://bothellwa.paymore.com/collections/newly-listed-devices?{int(time.time())}", headers={'Cache-Control': 'no-cache'})
     content = r.content.decode()
     soup = BeautifulSoup(content, 'html.parser')
-
     import re 
     data  = soup.find_all("script")[37].string
-    print(data)
     product_grid = soup.find(attrs={'id' : 'product-grid'}).contents[1]
     print('product grid: ' + str(product_grid))
     product = product_grid.find_next(attrs={'class' : 'card__information'}).get_text().strip()

@@ -1,4 +1,5 @@
 import json
+import time
 from bs4 import BeautifulSoup
 import requests
 import http.client, urllib
@@ -16,15 +17,6 @@ def send_notification(user_id, token, item_name):
     }), { "Content-type": "application/x-www-form-urlencoded" })
   conn.getresponse()
 
-def get_latest_product():
-  r = requests.get("https://bothellwa.paymore.com/collections/newly-listed-devices")
-  content = r.content.decode()
-
-  soup = BeautifulSoup(content, 'html.parser')
-  product_grid = soup.find(attrs={'id' : 'product-grid'}).contents[1]
-  product_1 = product_grid.find_next(attrs={'class' : 'card__information'}).get_text().strip()
-  #product_count = soup.find(attrs={'id' : 'ProductCount'}).contents[0].split()[0]
-  return product_1
 
 def get_stored_items(context):
   with open ('/mnt/efs/products1.txt', 'rb') as f:
@@ -51,16 +43,30 @@ def update_stored_items(context, new_product, products):
 
 
 def lambda_handler(event, context): 
+
   user_ids = [os.getenv("USER_ID_0"), os.getenv("USER_ID_1")]
   token = os.getenv("API_KEY")
 
   try:
     print('getting latest product.')
-    product = get_latest_product()
-  except:
+    r = requests.get("http://bothellwa.paymore.com/collections/newly-listed-devices", headers={'Cache-Control': 'no-cache'})
+    content = r.content.decode()
+    soup = BeautifulSoup(content, 'html.parser')
+    print(content)
+    import re 
+    data  = soup.find_all("script")[37].string
+    print(data)
+    product_grid = soup.find(attrs={'id' : 'product-grid'}).contents[1]
+    print('product grid: ' + str(product_grid))
+    product = product_grid.find_next(attrs={'class' : 'card__information'}).get_text().strip()
+    #product_count = soup.find(attrs={'id' : 'ProductCount'}).contents[0].split()[0]
+    print('latest product is: ' + product)
+  except Exception as e:
+      print(e)
       print('failed to get latest product')
       for id in user_ids:
-        send_notification(id, token, "ERROR in pulling product data")
+        pass
+        #send_notification(id, token, "ERROR in pulling product data")
       return {
         'statusCode': 200,
         'body': json.dumps('Ran successfully')

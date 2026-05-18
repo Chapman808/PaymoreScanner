@@ -114,13 +114,13 @@ Shopify.routes.root = "/";
 Shopify.shopJsCdnBaseUrl = "https://cdn.shopify.com/shopifycloud/shop-js";
 Shopify.SignInWithShop = Shopify.SignInWithShop || {};
 Shopify.SignInWithShop.User = Shopify.SignInWithShop.User || {};
-Shopify.SignInWithShop.User.recognized = false;</script>
+Shopify.SignInWithShop.User.recognized = true;</script>
 <script type="module">!function(o){(o.Shopify=o.Shopify||{}).modules=!0}(window);</script>
 <script>!function(o){function n(){var o=[];function n(){o.push(Array.prototype.slice.apply(arguments))}return n.q=o,n}var t=o.Shopify=o.Shopify||{};t.loadFeatures=n(),t.autoloadFeatures=n()}(window);</script>
 <script>
   window.ShopifyPay = window.ShopifyPay || {};
   window.ShopifyPay.apiHost = "shop.app\/pay";
-  window.ShopifyPay.redirectState = "pending";
+  window.ShopifyPay.redirectState = "true";
 </script>
 <script>
   window.Shopify = window.Shopify || {};
@@ -138,9 +138,9 @@ Shopify.SignInWithShop.User.recognized = false;</script>
 <script>
   window.Shopify = window.Shopify || {};
   if (!window.Shopify.featureAssets) window.Shopify.featureAssets = {};
-  window.Shopify.featureAssets['shop-js'] = {"shop-toast-manager":["modules/v2/loader.shop-toast-manager.en.esm.js"],"shop-cash-offers":["modules/v2/loader.shop-cash-offers.en.esm.js"],"init-shop-user-recognition":["modules/v2/loader.init-shop-user-recognition.en.esm.js"],"init-windoid":["modules/v2/loader.init-windoid.en.esm.js"],"init-shop-email-lookup-coordinator":["modules/v2/loader.init-shop-email-lookup-coordinator.en.esm.js"],"init-fed-cm":["modules/v2/loader.init-fed-cm.en.esm.js"],"avatar":["modules/v2/loader.avatar.en.esm.js"],"shop-button":["modules/v2/loader.shop-button.en.esm.js"],"init-shop-cart-sync":["modules/v2/loader.init-shop-cart-sync.en.esm.js"],"checkout-modal":["modules/v2/loader.checkout-modal.en.esm.js"],"shop-login-button":["modules/v2/loader.shop-login-button.en.esm.js"],"init-customer-accounts-sign-up":["modules/v2/loader.init-customer-accounts-sign-up.en.esm.js"],"init-customer-accounts":["modules/v2/loader.init-customer-accounts.en.esm.js"],"init-shop-for-new-customer-accounts":["modules/v2/loader.init-shop-for-new-customer-accounts.en.esm.js"],"shop-cart-sync":["modules/v2/loader.shop-cart-sync.en.esm.js"],"shop-user-recognition":["modules/v2/loader.shop-user-recognition.en.esm.js"],"shop-login":["modules/v2/loader.shop-login.en.esm.js"],"pay-button":["modules/v2/loader.pay-button.en.esm.js"],"shop-follow-button":["modules/v2/loader.shop-follow-button.en.esm.js"],"lead-capture":["modules/v2/loader.lead-capture.en.esm.js"],"payment-terms":["modules/v2/loader.payment-terms.en.esm.js"]};
+  window.Shopify.featureAssets['shop-js'] = {"shop-toast-manager":["modules/v2/loader.shop-toast-manager.en.esm.js"],"shop-button":["modules/v2/loader.shop-button.en.esm.js"],"init-shop-user-recognition":["modules/v2/loader.init-shop-user-recognition.en.esm.js"],"checkout-modal":["modules/v2/loader.checkout-modal.en.esm.js"],"shop-cash-offers":["modules/v2/loader.shop-cash-offers.en.esm.js"],"init-shop-email-lookup-coordinator":["modules/v2/loader.init-shop-email-lookup-coordinator.en.esm.js"],"shop-login-button":["modules/v2/loader.shop-login-button.en.esm.js"],"init-shop-cart-sync":["modules/v2/loader.init-shop-cart-sync.en.esm.js"],"init-windoid":["modules/v2/loader.init-windoid.en.esm.js"],"init-fed-cm":["modules/v2/loader.init-fed-cm.en.esm.js"],"init-customer-accounts-sign-up":["modules/v2/loader.init-customer-accounts-sign-up.en.esm.js"],"avatar":["modules/v2/loader.avatar.en.esm.js"],"shop-user-recognition":["modules/v2/loader.shop-user-recognition.en.esm.js"],"shop-cart-sync":["modules/v2/loader.shop-cart-sync.en.esm.js"],"pay-button":["modules/v2/loader.pay-button.en.esm.js"],"init-shop-for-new-customer-accounts":["modules/v2/loader.init-shop-for-new-customer-accounts.en.esm.js"],"init-customer-accounts":["modules/v2/loader.init-customer-accounts.en.esm.js"],"shop-login":["modules/v2/loader.shop-login.en.esm.js"],"shop-follow-button":["modules/v2/loader.shop-follow-button.en.esm.js"],"lead-capture":["modules/v2/loader.lead-capture.en.esm.js"],"payment-terms":["modules/v2/loader.payment-terms.en.esm.js"]};
 </script>
-<script id="__st">var __st={"a":64643072181,"offset":-25200,"reqid":"100ff57b-6fff-4edf-8bee-54678530c369-1778965802","pageurl":"bothellwa.paymore.com\/collections\/newly-listed-devices","u":"90ee3645b3e5","p":"collection","rtyp":"collection","rid":357382815925};</script>
+<script id="__st">var __st={"a":64643072181,"offset":-25200,"reqid":"9f7192a0-6927-4288-8c0e-3e34f1ea7127-1779134286","pageurl":"bothellwa.paymore.com\/collections\/newly-listed-devices","u":"43c49076a565","p":"collection","rtyp":"collection","rid":357382815925};</script>
 <script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
 <script id="captcha-bootstrap">!function(){'use strict';const t='contact',e='account',n='new_comment',o=[[t,t],['blogs',n],['comments',n],[t,'customer']],c=[[e,'customer_login'],[e,'guest_login'],[e,'recover_customer_password'],[e,'create_customer']],r=t=>t.map((([t,e])=>`form[action*='/${t}']:not([data-nocaptcha='true']) input[name='form_type'][value='${e}']`)).join(','),a=t=>()=>t?[...document.querySelectorAll(t)].map((t=>t.form)):[];function s(){const t=[...o],e=r(t);return a(e)}const i='password',u='form_key',d=['recaptcha-v3-token','g-recaptcha-response','h-captcha-response',i],f=()=>{try{return window.sessionStorage}catch{return}},m='__shopify_v',_=t=>t.elements[u];function p(t,e,n=!1){try{const o=window.sessionStorage,c=JSON.parse(o.getItem(e)),{data:r}=function(t){const{data:e,action:n}=t;return t[m]||n?{data:e,action:n}:{data:t,action:n}}(c);for(const[e,n]of Object.entries(r))t.elements[e]&&(t.elements[e].value=n);n&&o.removeItem(e)}catch(o){console.error('form repopulation failed',{error:o})}}const l='form_type',E='cptcha';function T(t){t.dataset[E]=!0}const w=window,h=w.document,L='Shopify',v='ce_forms',y='captcha';let A=!1;((t,e)=>{const n=(g='f06e6c50-85a8-45c8-87d0-21a2b65856fe',I='https://cdn.shopify.com/shopifycloud/storefront-forms-hcaptcha/ce_storefront_forms_captcha_hcaptcha.v1.5.2.iife.js',D={infoText:'Protected by hCaptcha',privacyText:'Privacy',termsText:'Terms'},(t,e,n)=>{const o=w[L][v],c=o.bindForm;if(c)return c(t,g,e,D).then(n);var r;o.q.push([[t,g,e,D],n]),r=I,A||(h.body.append(Object.assign(h.createElement('script'),{id:'captcha-provider',async:!0,src:r})),A=!0)});var g,I,D;w[L]=w[L]||{},w[L][v]=w[L][v]||{},w[L][v].q=[],w[L][y]=w[L][y]||{},w[L][y].protect=function(t,e){n(t,void 0,e),T(t)},Object.freeze(w[L][y]),function(t,e,n,w,h,L){const[v,y,A,g]=function(t,e,n){const i=e?o:[],u=t?c:[],d=[...i,...u],f=r(d),m=r(i),_=r(d.filter((([t,e])=>n.includes(e))));return[a(f),a(m),a(_),s()]}(w,h,L),I=t=>{const e=t.target;return e instanceof HTMLFormElement?e:e&&e.form},D=t=>v().includes(t);t.addEventListener('submit',(t=>{const e=I(t);if(!e)return;const n=D(e)&&!e.dataset.hcaptchaBound&&!e.dataset.recaptchaBound,o=_(e),c=g().includes(e)&&(!o||!o.value);(n||c)&&t.preventDefault(),c&&!n&&(function(t){try{if(!f())return;!function(t){const e=f();if(!e)return;const n=_(t);if(!n)return;const o=n.value;o&&e.removeItem(o)}(t);const e=Array.from(Array(32),(()=>Math.random().toString(36)[2])).join('');!function(t,e){_(t)||t.append(Object.assign(document.createElement('input'),{type:'hidden',name:u})),t.elements[u].value=e}(t,e),function(t,e){const n=f();if(!n)return;const o=[...t.querySelectorAll(`input[type='${i}']`)].map((({name:t})=>t)),c=[...d,...o],r={};for(const[a,s]of new FormData(t).entries())c.includes(a)||(r[a]=s);n.setItem(e,JSON.stringify({[m]:1,action:t.action,data:r}))}(t,e)}catch(e){console.error('failed to persist form',e)}}(e),e.submit())}));const S=(t,e)=>{t&&!t.dataset[E]&&(n(t,e.some((e=>e===t))),T(t))};for(const o of['focusin','change'])t.addEventListener(o,(t=>{const e=I(t);D(e)&&S(e,y())}));const B=e.get('form_key'),M=e.get(l),P=B&&M;t.addEventListener('DOMContentLoaded',(()=>{const t=y();if(P)for(const e of t)e.elements[l].value===M&&p(e,B);[...new Set([...A(),...v().filter((t=>'true'===t.dataset.shopifyCaptcha))])].forEach((e=>S(e,t)))}))}(h,new URLSearchParams(w.location.search),n,t,e,['guest_login'])})(!0,!0)}();</script>
 <script integrity="sha256-JjoPp5ZfB1sSAs5SQaol1x1GgvveM+BgmRzyDexInEQ=" data-source-attribution="shopify.loadfeatures" defer="defer" src="//bothellwa.paymore.com/cdn/shopifycloud/storefront/assets/storefront/load_feature-1bd60354.js" crossorigin="anonymous"></script>
@@ -502,17 +502,17 @@ Shopify.SignInWithShop.User.recognized = false;</script>
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
-  <script src="https://cdn.shopify.com/extensions/a91f9cd9-7693-4b55-b0f8-a47f69a8cb0c/inbox-1267/assets/inbox-chat-loader.js" type="text/javascript" defer="defer"></script>
+  <script src="https://cdn.shopify.com/extensions/538183fa-e9d7-460f-8ede-f268bcd8b172/inbox-1269/assets/inbox-chat-loader.js" type="text/javascript" defer="defer"></script>
 <link href="https://monorail-edge.shopifysvc.com" rel="dns-prefetch">
 <script>(function(){if ("sendBeacon" in navigator && "performance" in window) {try {var session_token_from_headers = performance.getEntriesByType('navigation')[0].serverTiming.find(x => x.name == '_s').description;} catch {var session_token_from_headers = undefined;}var session_cookie_matches = document.cookie.match(/_shopify_s=([^;]*)/);var session_token_from_cookie = session_cookie_matches && session_cookie_matches.length === 2 ? session_cookie_matches[1] : "";var session_token = session_token_from_headers || session_token_from_cookie || "";function handle_abandonment_event(e) {var entries = performance.getEntries().filter(function(entry) {return /monorail-edge.shopifysvc.com/.test(entry.name);});if (!window.abandonment_tracked && entries.length === 0) {window.abandonment_tracked = true;var currentMs = Date.now();var navigation_start = performance.timing.navigationStart;var payload = {shop_id: 64643072181,url: window.location.href,navigation_start,duration: currentMs - navigation_start,session_token,page_type: "collection"};window.navigator.sendBeacon("https://monorail-edge.shopifysvc.com/v1/produce", JSON.stringify({schema_id: "online_store_buyer_site_abandonment/1.1",payload: payload,metadata: {event_created_at_ms: currentMs,event_sent_at_ms: currentMs}}));}}window.addEventListener('pagehide', handle_abandonment_event);}}());</script>
 <script>
   window.__TREKKIE_SHIM_QUEUE = window.__TREKKIE_SHIM_QUEUE || [];
 </script>
-<script id="web-pixels-manager-setup">(function(){var wpmLoader=function(){"use strict";return function(e,d,r,n){var o=arguments.length>4&&void 0!==arguments[4]?arguments[4]:{};if(!Boolean(null==(i=null==(a=window.Shopify)?void 0:a.analytics)?void 0:i.replayQueue)){var a,i;window.Shopify=window.Shopify||{};var t=window.Shopify;t.analytics=t.analytics||{};var s=t.analytics;s.replayQueue=[],s.publish=function(e,d,r){return s.replayQueue.push([e,d,r]),!0};try{self.performance.mark("wpm:start")}catch(e){}var l,u,c,m,p,f,h,g,y,w,v,b,S,P=(u=(l={modern:/Edge?\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Firefox\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Chrom(ium|e)\/(9{2}|\d{3,})\.\d+(\.\d+|)|(Maci|X1{2}).+ Version\/(15\.\d+|(1[6-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(9{2}|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(15[._]\d+|(1[6-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Android.+Firefox\/(13[5-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|SamsungBrowser\/([2-9]\d|\d{3,})\.\d+/,legacy:/Edge?\/(1[6-9]|[2-9]\d|\d{3,})\.\d+(\.\d+|)|Firefox\/(5[4-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)|Chrom(ium|e)\/(5[1-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)([\d.]+$|.*Safari\/(?![\d.]+ Edge\/[\d.]+$))|(Maci|X1{2}).+ Version\/(10\.\d+|(1[1-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(3[89]|[4-9]\d|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(10[._]\d+|(1[1-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Mobile Safari.+OPR\/([89]\d|\d{3,})\.\d+\.\d+|Android.+Firefox\/(13[5-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+(UC? ?Browser|UCWEB|U3)[ /]?(15\.([5-9]|\d{2,})|(1[6-9]|[2-9]\d|\d{3,})\.\d+)\.\d+|SamsungBrowser\/(5\.\d+|([6-9]|\d{2,})\.\d+)|Android.+MQ{2}Browser\/(14(\.(9|\d{2,})|)|(1[5-9]|[2-9]\d|\d{3,})(\.\d+|))(\.\d+|)|K[Aa][Ii]OS\/(3\.\d+|([4-9]|\d{2,})\.\d+)(\.\d+|)/}).modern,c=l.legacy,(m=navigator.userAgent).match(u)?"modern":m.match(c)?"legacy":"unknown"),C="modern"===P?"modern":"legacy",_=(null!=n?n:{modern:"",legacy:""})[C],O=[(p={baseUrl:d,hashVersion:r,buildTarget:C}).baseUrl,"/wpm","/b",p.hashVersion,"modern"===p.buildTarget?"m":"l",".js"].join(""),U=(f={version:r,bundleTarget:P,surface:e.surface,pageUrl:self.location.href,monorailEndpoint:e.monorailEndpoint},h=f.version,g=f.bundleTarget,y=f.surface,w=f.pageUrl,v=f.monorailEndpoint,{emit:function(e){var d=e.status,r=e.errorMsg,n=(new Date).getTime(),o=JSON.stringify({metadata:{event_sent_at_ms:n},events:[{schema_id:"web_pixels_manager_load/3.1",payload:{version:h,bundle_target:g,page_url:w,status:d,surface:y,error_msg:r},metadata:{event_created_at_ms:n}}]});if(!v)return console&&console.warn&&console.warn("[Web Pixels Manager] No Monorail endpoint provided, skipping logging."),!1;try{return self.navigator.sendBeacon.bind(self.navigator)(v,o)}catch(e){}var a=new XMLHttpRequest;try{return a.open("POST",v,!0),a.setRequestHeader("Content-Type","text/plain"),a.send(o),!0}catch(e){return console&&console.warn&&console.warn("[Web Pixels Manager] Got an unhandled error while logging to Monorail."),!1}}});try{o.browserTarget=P,function(e){var d=e.src,r=e.async,n=void 0===r||r,o=e.onload,a=e.onerror,i=e.sri,t=e.scriptDataAttributes,s=void 0===t?{}:t,l=document.createElement("script"),u=document.querySelector("head"),c=document.querySelector("body");if(l.async=n,l.src=d,i&&(l.integrity=i,l.crossOrigin="anonymous"),s)for(var m in s)if(Object.prototype.hasOwnProperty.call(s,m))try{l.dataset[m]=s[m]}catch(e){}if(o&&l.addEventListener("load",o),a&&l.addEventListener("error",a),u)u.appendChild(l);else{if(!c)throw new Error("Did not find a head or body element to append the script");c.appendChild(l)}}({src:O,async:!0,onload:function(){if(!function(){var e,d;return Boolean(null==(d=null==(e=window.Shopify)?void 0:e.analytics)?void 0:d.initialized)}()){var d=window.webPixelsManager.init(e)||void 0;if(d){var r=window.Shopify.analytics;r.replayQueue.forEach(function(e){var r=e[0],n=e[1],o=e[2];d.publishCustomEvent(r,n,o)}),r.replayQueue=[],r.publish=d.publishCustomEvent,r.visitor=d.visitor,r.initialized=!0}}},onerror:function(){return U.emit({status:"failed",errorMsg:"".concat(O," has failed to load")})},sri:(b=_,S=/^sha384-[A-Za-z0-9+/=]+$/,"string"==typeof b&&S.test(b)?_:""),scriptDataAttributes:o}),U.emit({status:"loading"})}catch(e){U.emit({status:"failed",errorMsg:(null==e?void 0:e.message)||"Unknown error"})}}}}();wpmLoader({shopId: 64643072181,storefrontBaseUrl: "https://bothellwa.paymore.com",extensionsBaseUrl: "https://extensions.shopifycdn.com/cdn/shopifycloud/web-pixels-manager",monorailEndpoint: "https://monorail-edge.shopifysvc.com/unstable/produce_batch",surface: "storefront-renderer",enabledBetaFlags: ["2dca8a86","d5bdd5d0","5acaffe6"],webPixelsConfigList: [{"id":"2763063477","configuration":"{\"pixelId\":\"PAYMORE_1759213315539737\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"14116a4eadc16dc54048e31365e18dc8","type":"APP","apiClientId":35264036865,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"optimized"},{"id":"shopify-app-pixel","configuration":"{}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"0460","apiClientId":"shopify-pixel","type":"APP","privacyPurposes":["ANALYTICS","MARKETING"]},{"id":"shopify-custom-pixel","eventPayloadVersion":"v1","runtimeContext":"LAX","scriptVersion":"0460","apiClientId":"shopify-pixel","type":"CUSTOM","privacyPurposes":["ANALYTICS","MARKETING"]}],isMerchantRequest: false,initData: {"shop":{"name":"PayMore Bothell","paymentSettings":{"currencyCode":"USD"},"myshopifyDomain":"paymore-bothell.myshopify.com","countryCode":"US","storefrontUrl":"https:\/\/bothellwa.paymore.com"},"customer":null,"cart":null,"checkout":null,"productVariants":[],"products":null,"purchasingCompany":null,"page":null},},"https://bothellwa.paymore.com/cdn","7a919571w0b784b64p16d009bem0237e62e",{"modern":"","legacy":""},{"trekkieShim":true,"pageType":"collection","resourceId":"357382815925","shopId":"64643072181","storefrontBaseUrl":"https:\/\/bothellwa.paymore.com","extensionBaseUrl":"https:\/\/extensions.shopifycdn.com\/cdn\/shopifycloud\/web-pixels-manager","surface":"storefront-renderer","enabledBetaFlags":"[\"2dca8a86\", \"d5bdd5d0\", \"5acaffe6\"]","isMerchantRequest":"false","hashVersion":"7a919571w0b784b64p16d009bem0237e62e","publish":"custom","events":"[[\"page_viewed\",{}],[\"collection_viewed\",{\"collection\":{\"id\":\"357382815925\",\"title\":\"Newly Listed Devices\",\"productVariants\":[{\"price\":{\"amount\":109.99,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"Sony PlayStation 3 Super Slim PS3 500GB White Console Gaming System CECH-4001C\",\"vendor\":\"PayMore Bothell\",\"id\":\"10438169067701\",\"untranslatedTitle\":\"Sony PlayStation 3 Super Slim PS3 500GB White Console Gaming System CECH-4001C\",\"url\":\"\/products\/sony-playstation-3-super-slim-ps3-500gb-white-console-gaming-system-cech-4001c-1778961399876-ddjmd5w50\",\"type\":\"\"},\"id\":\"52515969728693\",\"image\":{\"src\":\"\/\/bothellwa.paymore.com\/cdn\/shop\/files\/1778961093073sxvqmeo.jpg?v=1778961407\"},\"sku\":\"WA02-3678C-R4R2\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"},{\"price\":{\"amount\":134.99,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"Sony PlayStation 4 Pro PS4 1TB Star Wars Edition Console Gaming System CUH-7115B\",\"vendor\":\"PayMore Bothell\",\"id\":\"10438168805557\",\"untranslatedTitle\":\"Sony PlayStation 4 Pro PS4 1TB Star Wars Edition Console Gaming System CUH-7115B\",\"url\":\"\/products\/sony-playstation-4-pro-ps4-1tb-star-wars-edition-console-gaming-system-cuh-7115b-1778961115443-ug92g3z0l\",\"type\":\"\"},\"id\":\"52515969335477\",\"image\":{\"src\":\"\/\/bothellwa.paymore.com\/cdn\/shop\/files\/17789610512782rniip2.jpg?v=1778961121\"},\"sku\":\"WA02-3674A-R4R2\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"},{\"price\":{\"amount\":44.99,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"Sony PlayStation 5 PS5 DualSense Wireless Controller Black CFI-ZCT1W\",\"vendor\":\"PayMore Bothell\",\"id\":\"10437888082101\",\"untranslatedTitle\":\"Sony PlayStation 5 PS5 DualSense Wireless Controller Black CFI-ZCT1W\",\"url\":\"\/products\/sony-playstation-5-ps5-dualsense-wireless-controller-black-cfi-zct1w-1778890249213-7dddqptny\",\"type\":\"\"},\"id\":\"52514933342389\",\"image\":{\"src\":\"\/\/bothellwa.paymore.com\/cdn\/shop\/files\/1778890242973ycoh046.jpg?v=1778890252\"},\"sku\":\"WA02-RCY652-E5\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"},{\"price\":{\"amount\":29.99,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"Sony PlayStation 4 PS4 DualShock 4 Wireless Controller Sunset Orange CUH-ZCT2E\",\"vendor\":\"PayMore Bothell\",\"id\":\"10437885558965\",\"untranslatedTitle\":\"Sony PlayStation 4 PS4 DualShock 4 Wireless Controller Sunset Orange CUH-ZCT2E\",\"url\":\"\/products\/sony-playstation-4-ps4-dualshock-4-wireless-controller-sunset-orange-cuh-zct2e-1778889491465-u1zk04wd3\",\"type\":\"\"},\"id\":\"52514925183157\",\"image\":{\"src\":\"\/\/bothellwa.paymore.com\/cdn\/shop\/files\/1778889448739yqbwae9.jpg?v=1778889494\"},\"sku\":\"WA02-3674C-E5\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"},{\"price\":{\"amount\":29.99,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"Sony PlayStation 4 PS4 DualShock 4 Wireless Controller Clear CUH-ZCT2U\",\"vendor\":\"PayMore Bothell\",\"id\":\"10437885493429\",\"untranslatedTitle\":\"Sony PlayStation 4 PS4 DualShock 4 Wireless Controller Clear CUH-ZCT2U\",\"url\":\"\/products\/sony-playstation-4-ps4-dualshock-4-wireless-controller-clear-cuh-zct2u-1778889476020-9gehoa7os\",\"type\":\"\"},\"id\":\"52514925084853\",\"image\":{\"src\":\"\/\/bothellwa.paymore.com\/cdn\/shop\/files\/17788894306485xm5x2a.jpg?v=1778889478\"},\"sku\":\"WA02-3674D-E5\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"},{\"price\":{\"amount\":109.99,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"HP NoteBook 15-DY1024WM 15.6\\\" i3-1005G1 1.2GHz 4GB RAM 128GB SSD\",\"vendor\":\"PayMore Bothell\",\"id\":\"10437884117173\",\"untranslatedTitle\":\"HP NoteBook 15-DY1024WM 15.6\\\" i3-1005G1 1.2GHz 4GB RAM 128GB SSD\",\"url\":\"\/products\/hp-notebook-15-dy1024wm-15-6-i3-1005g1-1-2ghz-4gb-ram-128gb-ssd-1778888434740-5hkqhwd1u\",\"type\":\"\"},\"id\":\"52514921644213\",\"image\":{\"src\":\"\/\/bothellwa.paymore.com\/cdn\/shop\/files\/1778888336869k950vhl.jpg?v=1778888438\"},\"sku\":\"WA02-3680D-R4R2\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"},{\"price\":{\"amount\":149.99,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"SteelSeries Arctic Nova Pro White HS25TX Wireless Gaming Headset Multi-Platform\",\"vendor\":\"PayMore Bothell\",\"id\":\"10437849972917\",\"untranslatedTitle\":\"SteelSeries Arctic Nova Pro White HS25TX Wireless Gaming Headset Multi-Platform\",\"url\":\"\/products\/steelseries-arctic-nova-pro-white-hs25tx-wireless-gaming-headset-multi-platform-1778879722862-6vvzwt9ik\",\"type\":\"\"},\"id\":\"52514854076597\",\"image\":{\"src\":\"\/\/bothellwa.paymore.com\/cdn\/shop\/files\/1778879576740c3pq6w0.jpg?v=1778879725\"},\"sku\":\"WA02-3677A-E3\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"},{\"price\":{\"amount\":429.99,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"Sony PlayStation 5 Disc PS5 825GB White Console Gaming System CFI-1215A\",\"vendor\":\"PayMore Bothell\",\"id\":\"10437848465589\",\"untranslatedTitle\":\"Sony PlayStation 5 Disc PS5 825GB White Console Gaming System CFI-1215A\",\"url\":\"\/products\/sony-playstation-5-disc-ps5-825gb-white-console-gaming-system-cfi-1215a-1778879677344-3iila1pir\",\"type\":\"\"},\"id\":\"52514851913909\",\"image\":{\"src\":\"\/\/bothellwa.paymore.com\/cdn\/shop\/files\/1778879524345cajpksn.jpg?v=1778879680\"},\"sku\":\"WA02-3678A-S4R2\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"},{\"price\":{\"amount\":49.99,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"Logitech Astro A30 LIGHTSPEED 939-001985 Wireless Gaming Headset PC and PS\",\"vendor\":\"PayMore Bothell\",\"id\":\"10437336334517\",\"untranslatedTitle\":\"Logitech Astro A30 LIGHTSPEED 939-001985 Wireless Gaming Headset PC and PS\",\"url\":\"\/products\/logitech-astro-a30-lightspeed-939-001985-wireless-gaming-headset-pc-and-ps-1778803023191-va1gr2drg\",\"type\":\"\"},\"id\":\"52513297727669\",\"image\":{\"src\":\"\/\/bothellwa.paymore.com\/cdn\/shop\/files\/177880301554508g92i4.jpg?v=1778803026\"},\"sku\":\"WA02-3421D-R1R2\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"},{\"price\":{\"amount\":699.99,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"CyberPower C-Series Ryzen 7 8700F 4.10GHz 16GB RAM 2TB SSD ASUS GeForce RTX 4060\",\"vendor\":\"PayMore Bothell\",\"id\":\"10437330763957\",\"untranslatedTitle\":\"CyberPower C-Series Ryzen 7 8700F 4.10GHz 16GB RAM 2TB SSD ASUS GeForce RTX 4060\",\"url\":\"\/products\/cyberpower-c-series-ryzen-7-8700f-4-10ghz-16gb-ram-2tb-ssd-asus-geforce-rtx-4060-1778800677807-c2prtc380\",\"type\":\"\"},\"id\":\"52513279344821\",\"image\":{\"src\":\"\/\/bothellwa.paymore.com\/cdn\/shop\/files\/1778800657353wvyzoyx.jpg?v=1778800681\"},\"sku\":\"WA02-3673A-S3R4\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"},{\"price\":{\"amount\":949.99,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"MSI Claw 8 AI+ 8\\\" Intel Core Ultra 7 258V 32GB RAM 1TB Black A2VM-001US\",\"vendor\":\"PayMore Bothell\",\"id\":\"10437305565365\",\"untranslatedTitle\":\"MSI Claw 8 AI+ 8\\\" Intel Core Ultra 7 258V 32GB RAM 1TB Black A2VM-001US\",\"url\":\"\/products\/msi-claw-8-ai-8-intel-core-ultra-7-258v-32gb-ram-1tb-black-a2vm-001us-1778794317129-h2ymcijbc\",\"type\":\"\"},\"id\":\"52513208697013\",\"image\":{\"src\":\"\/\/bothellwa.paymore.com\/cdn\/shop\/files\/1778794296666hminhln.jpg?v=1778794321\"},\"sku\":\"WA02-3668A-D1R3\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"},{\"price\":{\"amount\":11.99,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"Vectrex HYPER CHASE Screen Overlay\",\"vendor\":\"PayMore Bothell\",\"id\":\"10437272731829\",\"untranslatedTitle\":\"Vectrex HYPER CHASE Screen Overlay\",\"url\":\"\/products\/vectrex-hyper-chase-screen-overlay-1778792521150-m7phb82nm\",\"type\":\"\"},\"id\":\"52513155121333\",\"image\":{\"src\":\"\/\/bothellwa.paymore.com\/cdn\/shop\/files\/1778792501120315rqhg.jpg?v=1778792524\"},\"sku\":\"WA02-3672B-R2R3\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"},{\"price\":{\"amount\":11.99,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"Vectrex RIPOFF Screen Overlay\",\"vendor\":\"PayMore Bothell\",\"id\":\"10437271584949\",\"untranslatedTitle\":\"Vectrex RIPOFF Screen Overlay\",\"url\":\"\/products\/vectrex-ripoff-screen-overlay-1778792222963-dgh5cndng\",\"type\":\"\"},\"id\":\"52513150828725\",\"image\":{\"src\":\"\/\/bothellwa.paymore.com\/cdn\/shop\/files\/1778792191669p34p921.jpg?v=1778792226\"},\"sku\":\"WA02-3672B-R2R3\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"},{\"price\":{\"amount\":1199.99,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"Lenovo ThinkPad P1 Gen 6 16APH8 16\\\" i9-13900H 2.6GHz 32GB RAM 1TB SSD RTX 2000\",\"vendor\":\"PayMore Bothell\",\"id\":\"10437264408757\",\"untranslatedTitle\":\"Lenovo ThinkPad P1 Gen 6 16APH8 16\\\" i9-13900H 2.6GHz 32GB RAM 1TB SSD RTX 2000\",\"url\":\"\/products\/lenovo-thinkpad-p1-gen-6-16aph8-16-i9-13900h-2-6ghz-32gb-ram-1tb-ssd-rtx-2000-1778789717062-c1y8vok0v\",\"type\":\"\"},\"id\":\"52513095123125\",\"image\":{\"src\":\"\/\/bothellwa.paymore.com\/cdn\/shop\/files\/1778789645416xelk1z1.jpg?v=1778789720\"},\"sku\":\"WA02-3671A-S2R3\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"},{\"price\":{\"amount\":11.99,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"Stargate (Sega Genesis, 1993) Cartridge Only\",\"vendor\":\"PayMore Bothell\",\"id\":\"10437263589557\",\"untranslatedTitle\":\"Stargate (Sega Genesis, 1993) Cartridge Only\",\"url\":\"\/products\/stargate-sega-genesis-1993-cartridge-only-1778789399786-meroxt9de\",\"type\":\"\"},\"id\":\"52513092632757\",\"image\":{\"src\":\"\/\/bothellwa.paymore.com\/cdn\/shop\/files\/1778789392208aixfzkl.jpg?v=1778789402\"},\"sku\":\"WA02-3672C6-R2R3\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"},{\"price\":{\"amount\":12.99,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"Super Street Fighter II (Sega Genesis, 1993) Cartridge Only\",\"vendor\":\"PayMore Bothell\",\"id\":\"10437263425717\",\"untranslatedTitle\":\"Super Street Fighter II (Sega Genesis, 1993) Cartridge Only\",\"url\":\"\/products\/super-street-fighter-ii-sega-genesis-1993-cartridge-only-1778789320482-6hvs0fsqf\",\"type\":\"\"},\"id\":\"52513092174005\",\"image\":{\"src\":\"\/\/bothellwa.paymore.com\/cdn\/shop\/files\/17787893047662k26kt0.jpg?v=1778789323\"},\"sku\":\"WA02-3672C5-R2R3\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"}]}}]]"});})();</script><script>
+<script id="web-pixels-manager-setup">(function(){var wpmLoader=function(){"use strict";return function(e,d,r,n){var o=arguments.length>4&&void 0!==arguments[4]?arguments[4]:{};if(!Boolean(null==(i=null==(a=window.Shopify)?void 0:a.analytics)?void 0:i.replayQueue)){var a,i;window.Shopify=window.Shopify||{};var t=window.Shopify;t.analytics=t.analytics||{};var s=t.analytics;s.replayQueue=[],s.publish=function(e,d,r){return s.replayQueue.push([e,d,r]),!0};try{self.performance.mark("wpm:start")}catch(e){}var l,u,c,m,p,f,h,g,y,w,v,b,S,P=(u=(l={modern:/Edge?\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Firefox\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Chrom(ium|e)\/(9{2}|\d{3,})\.\d+(\.\d+|)|(Maci|X1{2}).+ Version\/(15\.\d+|(1[6-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(9{2}|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(15[._]\d+|(1[6-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Android.+Firefox\/(13[5-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|SamsungBrowser\/([2-9]\d|\d{3,})\.\d+/,legacy:/Edge?\/(1[6-9]|[2-9]\d|\d{3,})\.\d+(\.\d+|)|Firefox\/(5[4-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)|Chrom(ium|e)\/(5[1-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)([\d.]+$|.*Safari\/(?![\d.]+ Edge\/[\d.]+$))|(Maci|X1{2}).+ Version\/(10\.\d+|(1[1-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(3[89]|[4-9]\d|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(10[._]\d+|(1[1-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Mobile Safari.+OPR\/([89]\d|\d{3,})\.\d+\.\d+|Android.+Firefox\/(13[5-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+(UC? ?Browser|UCWEB|U3)[ /]?(15\.([5-9]|\d{2,})|(1[6-9]|[2-9]\d|\d{3,})\.\d+)\.\d+|SamsungBrowser\/(5\.\d+|([6-9]|\d{2,})\.\d+)|Android.+MQ{2}Browser\/(14(\.(9|\d{2,})|)|(1[5-9]|[2-9]\d|\d{3,})(\.\d+|))(\.\d+|)|K[Aa][Ii]OS\/(3\.\d+|([4-9]|\d{2,})\.\d+)(\.\d+|)/}).modern,c=l.legacy,(m=navigator.userAgent).match(u)?"modern":m.match(c)?"legacy":"unknown"),C="modern"===P?"modern":"legacy",_=(null!=n?n:{modern:"",legacy:""})[C],O=[(p={baseUrl:d,hashVersion:r,buildTarget:C}).baseUrl,"/wpm","/b",p.hashVersion,"modern"===p.buildTarget?"m":"l",".js"].join(""),U=(f={version:r,bundleTarget:P,surface:e.surface,pageUrl:self.location.href,monorailEndpoint:e.monorailEndpoint},h=f.version,g=f.bundleTarget,y=f.surface,w=f.pageUrl,v=f.monorailEndpoint,{emit:function(e){var d=e.status,r=e.errorMsg,n=(new Date).getTime(),o=JSON.stringify({metadata:{event_sent_at_ms:n},events:[{schema_id:"web_pixels_manager_load/3.1",payload:{version:h,bundle_target:g,page_url:w,status:d,surface:y,error_msg:r},metadata:{event_created_at_ms:n}}]});if(!v)return console&&console.warn&&console.warn("[Web Pixels Manager] No Monorail endpoint provided, skipping logging."),!1;try{return self.navigator.sendBeacon.bind(self.navigator)(v,o)}catch(e){}var a=new XMLHttpRequest;try{return a.open("POST",v,!0),a.setRequestHeader("Content-Type","text/plain"),a.send(o),!0}catch(e){return console&&console.warn&&console.warn("[Web Pixels Manager] Got an unhandled error while logging to Monorail."),!1}}});try{o.browserTarget=P,function(e){var d=e.src,r=e.async,n=void 0===r||r,o=e.onload,a=e.onerror,i=e.sri,t=e.scriptDataAttributes,s=void 0===t?{}:t,l=document.createElement("script"),u=document.querySelector("head"),c=document.querySelector("body");if(l.async=n,l.src=d,i&&(l.integrity=i,l.crossOrigin="anonymous"),s)for(var m in s)if(Object.prototype.hasOwnProperty.call(s,m))try{l.dataset[m]=s[m]}catch(e){}if(o&&l.addEventListener("load",o),a&&l.addEventListener("error",a),u)u.appendChild(l);else{if(!c)throw new Error("Did not find a head or body element to append the script");c.appendChild(l)}}({src:O,async:!0,onload:function(){if(!function(){var e,d;return Boolean(null==(d=null==(e=window.Shopify)?void 0:e.analytics)?void 0:d.initialized)}()){var d=window.webPixelsManager.init(e)||void 0;if(d){var r=window.Shopify.analytics;r.replayQueue.forEach(function(e){var r=e[0],n=e[1],o=e[2];d.publishCustomEvent(r,n,o)}),r.replayQueue=[],r.publish=d.publishCustomEvent,r.visitor=d.visitor,r.initialized=!0}}},onerror:function(){return U.emit({status:"failed",errorMsg:"".concat(O," has failed to load")})},sri:(b=_,S=/^sha384-[A-Za-z0-9+/=]+$/,"string"==typeof b&&S.test(b)?_:""),scriptDataAttributes:o}),U.emit({status:"loading"})}catch(e){U.emit({status:"failed",errorMsg:(null==e?void 0:e.message)||"Unknown error"})}}}}();wpmLoader({shopId: 64643072181,storefrontBaseUrl: "https://bothellwa.paymore.com",extensionsBaseUrl: "https://extensions.shopifycdn.com/cdn/shopifycloud/web-pixels-manager",monorailEndpoint: "https://monorail-edge.shopifysvc.com/unstable/produce_batch",surface: "storefront-renderer",enabledBetaFlags: ["2dca8a86","d5bdd5d0","5acaffe6"],webPixelsConfigList: [{"id":"2763063477","configuration":"{\"pixelId\":\"PAYMORE_1759213315539737\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"14116a4eadc16dc54048e31365e18dc8","type":"APP","apiClientId":35264036865,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"optimized"},{"id":"shopify-app-pixel","configuration":"{}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"0460","apiClientId":"shopify-pixel","type":"APP","privacyPurposes":["ANALYTICS","MARKETING"]},{"id":"shopify-custom-pixel","eventPayloadVersion":"v1","runtimeContext":"LAX","scriptVersion":"0460","apiClientId":"shopify-pixel","type":"CUSTOM","privacyPurposes":["ANALYTICS","MARKETING"]}],isMerchantRequest: false,initData: {"shop":{"name":"PayMore Bothell","paymentSettings":{"currencyCode":"USD"},"myshopifyDomain":"paymore-bothell.myshopify.com","countryCode":"US","storefrontUrl":"https:\/\/bothellwa.paymore.com"},"customer":null,"cart":null,"checkout":null,"productVariants":[],"products":null,"purchasingCompany":null,"page":null},},"https://bothellwa.paymore.com/cdn","7a919571w0b784b64p16d009bem0237e62e",{"modern":"","legacy":""},{"trekkieShim":true,"pageType":"collection","resourceId":"357382815925","shopId":"64643072181","storefrontBaseUrl":"https:\/\/bothellwa.paymore.com","extensionBaseUrl":"https:\/\/extensions.shopifycdn.com\/cdn\/shopifycloud\/web-pixels-manager","surface":"storefront-renderer","enabledBetaFlags":"[\"2dca8a86\", \"d5bdd5d0\", \"5acaffe6\"]","isMerchantRequest":"false","hashVersion":"7a919571w0b784b64p16d009bem0237e62e","publish":"custom","events":"[[\"page_viewed\",{}],[\"collection_viewed\",{\"collection\":{\"id\":\"357382815925\",\"title\":\"Newly Listed Devices\",\"productVariants\":[{\"price\":{\"amount\":629.99,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"Dell XPS P151G001 13.4\\\" i7-1280P 1.8GHz 32GB RAM 512GB SSD\",\"vendor\":\"PayMore Bothell\",\"id\":\"10441629499573\",\"untranslatedTitle\":\"Dell XPS P151G001 13.4\\\" i7-1280P 1.8GHz 32GB RAM 512GB SSD\",\"url\":\"\/products\/dell-xps-p151g001-13-4-i7-1280p-1-8ghz-32gb-ram-512gb-ssd-1779134033704-s1u2abl7i\",\"type\":\"\"},\"id\":\"52536097505461\",\"image\":{\"src\":\"\/\/bothellwa.paymore.com\/cdn\/shop\/files\/1779134003049b3w6pvq.jpg?v=1779134037\"},\"sku\":\"WA02-3689A-S2R2\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"},{\"price\":{\"amount\":149.99,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"Nintendo Switch v2 Console Gaming System HAC-001(-01)  Black\",\"vendor\":\"PayMore Bothell\",\"id\":\"10438187581621\",\"untranslatedTitle\":\"Nintendo Switch v2 Console Gaming System HAC-001(-01)  Black\",\"url\":\"\/products\/nintendo-switch-v2-console-gaming-system-hac-001-01-black-1778968781534-xuixdhwy6\",\"type\":\"\"},\"id\":\"52516104503477\",\"image\":{\"src\":\"\/\/bothellwa.paymore.com\/cdn\/shop\/files\/1778968722148km4eyd6.jpg?v=1778968784\"},\"sku\":\"WA02-3681A-R4R2\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"},{\"price\":{\"amount\":374.99,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"Sony PlayStation 5 Digital PS5 825GB Black Console Gaming System CFI-1215B\",\"vendor\":\"PayMore Bothell\",\"id\":\"10438187548853\",\"untranslatedTitle\":\"Sony PlayStation 5 Digital PS5 825GB Black Console Gaming System CFI-1215B\",\"url\":\"\/products\/sony-playstation-5-digital-ps5-825gb-black-console-gaming-system-cfi-1215b-1778968762031-nkxtnblu8\",\"type\":\"\"},\"id\":\"52516104437941\",\"image\":{\"src\":\"\/\/bothellwa.paymore.com\/cdn\/shop\/files\/1778968661658ilufeoq.jpg?v=1778968765\"},\"sku\":\"WA02-3682A-R4R2\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"},{\"price\":{\"amount\":349.99,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"Bowers and Wilkins Formation Bass Subwoofer Black FP40258\",\"vendor\":\"PayMore Bothell\",\"id\":\"10438187450549\",\"untranslatedTitle\":\"Bowers and Wilkins Formation Bass Subwoofer Black FP40258\",\"url\":\"\/products\/bowers-and-wilkins-formation-bass-subwoofer-black-fp40258-1778968744844-ou063nh3a\",\"type\":\"\"},\"id\":\"52516104339637\",\"image\":{\"src\":\"\/\/bothellwa.paymore.com\/cdn\/shop\/files\/1778968616703ajzi0jf.jpg?v=1778968747\"},\"sku\":\"WA02-3683A-R1R4\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"},{\"price\":{\"amount\":44.99,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"Sony PlayStation 5 PS5 DualSense Wireless Controller Black CFI-ZCT1W\",\"vendor\":\"PayMore Bothell\",\"id\":\"10437888082101\",\"untranslatedTitle\":\"Sony PlayStation 5 PS5 DualSense Wireless Controller Black CFI-ZCT1W\",\"url\":\"\/products\/sony-playstation-5-ps5-dualsense-wireless-controller-black-cfi-zct1w-1778890249213-7dddqptny\",\"type\":\"\"},\"id\":\"52514933342389\",\"image\":{\"src\":\"\/\/bothellwa.paymore.com\/cdn\/shop\/files\/1778890242973ycoh046.jpg?v=1778890252\"},\"sku\":\"WA02-RCY652-E5\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"},{\"price\":{\"amount\":29.99,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"Sony PlayStation 4 PS4 DualShock 4 Wireless Controller Sunset Orange CUH-ZCT2E\",\"vendor\":\"PayMore Bothell\",\"id\":\"10437885558965\",\"untranslatedTitle\":\"Sony PlayStation 4 PS4 DualShock 4 Wireless Controller Sunset Orange CUH-ZCT2E\",\"url\":\"\/products\/sony-playstation-4-ps4-dualshock-4-wireless-controller-sunset-orange-cuh-zct2e-1778889491465-u1zk04wd3\",\"type\":\"\"},\"id\":\"52514925183157\",\"image\":{\"src\":\"\/\/bothellwa.paymore.com\/cdn\/shop\/files\/1778889448739yqbwae9.jpg?v=1778889494\"},\"sku\":\"WA02-3674C-E5\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"},{\"price\":{\"amount\":109.99,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"HP NoteBook 15-DY1024WM 15.6\\\" i3-1005G1 1.2GHz 4GB RAM 128GB SSD\",\"vendor\":\"PayMore Bothell\",\"id\":\"10437884117173\",\"untranslatedTitle\":\"HP NoteBook 15-DY1024WM 15.6\\\" i3-1005G1 1.2GHz 4GB RAM 128GB SSD\",\"url\":\"\/products\/hp-notebook-15-dy1024wm-15-6-i3-1005g1-1-2ghz-4gb-ram-128gb-ssd-1778888434740-5hkqhwd1u\",\"type\":\"\"},\"id\":\"52514921644213\",\"image\":{\"src\":\"\/\/bothellwa.paymore.com\/cdn\/shop\/files\/1778888336869k950vhl.jpg?v=1778888438\"},\"sku\":\"WA02-3680D-R4R2\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"},{\"price\":{\"amount\":149.99,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"SteelSeries Arctic Nova Pro White HS25TX Wireless Gaming Headset Multi-Platform\",\"vendor\":\"PayMore Bothell\",\"id\":\"10437849972917\",\"untranslatedTitle\":\"SteelSeries Arctic Nova Pro White HS25TX Wireless Gaming Headset Multi-Platform\",\"url\":\"\/products\/steelseries-arctic-nova-pro-white-hs25tx-wireless-gaming-headset-multi-platform-1778879722862-6vvzwt9ik\",\"type\":\"\"},\"id\":\"52514854076597\",\"image\":{\"src\":\"\/\/bothellwa.paymore.com\/cdn\/shop\/files\/1778879576740c3pq6w0.jpg?v=1778879725\"},\"sku\":\"WA02-3677A-E3\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"},{\"price\":{\"amount\":429.99,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"Sony PlayStation 5 Disc PS5 825GB White Console Gaming System CFI-1215A\",\"vendor\":\"PayMore Bothell\",\"id\":\"10437848465589\",\"untranslatedTitle\":\"Sony PlayStation 5 Disc PS5 825GB White Console Gaming System CFI-1215A\",\"url\":\"\/products\/sony-playstation-5-disc-ps5-825gb-white-console-gaming-system-cfi-1215a-1778879677344-3iila1pir\",\"type\":\"\"},\"id\":\"52514851913909\",\"image\":{\"src\":\"\/\/bothellwa.paymore.com\/cdn\/shop\/files\/1778879524345cajpksn.jpg?v=1778879680\"},\"sku\":\"WA02-3678A-S4R2\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"},{\"price\":{\"amount\":49.99,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"Logitech Astro A30 LIGHTSPEED 939-001985 Wireless Gaming Headset PC and PS\",\"vendor\":\"PayMore Bothell\",\"id\":\"10437336334517\",\"untranslatedTitle\":\"Logitech Astro A30 LIGHTSPEED 939-001985 Wireless Gaming Headset PC and PS\",\"url\":\"\/products\/logitech-astro-a30-lightspeed-939-001985-wireless-gaming-headset-pc-and-ps-1778803023191-va1gr2drg\",\"type\":\"\"},\"id\":\"52513297727669\",\"image\":{\"src\":\"\/\/bothellwa.paymore.com\/cdn\/shop\/files\/177880301554508g92i4.jpg?v=1778803026\"},\"sku\":\"WA02-3421D-R1R2\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"},{\"price\":{\"amount\":699.99,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"CyberPower C-Series Ryzen 7 8700F 4.10GHz 16GB RAM 2TB SSD ASUS GeForce RTX 4060\",\"vendor\":\"PayMore Bothell\",\"id\":\"10437330763957\",\"untranslatedTitle\":\"CyberPower C-Series Ryzen 7 8700F 4.10GHz 16GB RAM 2TB SSD ASUS GeForce RTX 4060\",\"url\":\"\/products\/cyberpower-c-series-ryzen-7-8700f-4-10ghz-16gb-ram-2tb-ssd-asus-geforce-rtx-4060-1778800677807-c2prtc380\",\"type\":\"\"},\"id\":\"52513279344821\",\"image\":{\"src\":\"\/\/bothellwa.paymore.com\/cdn\/shop\/files\/1778800657353wvyzoyx.jpg?v=1778800681\"},\"sku\":\"WA02-3673A-S3R4\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"},{\"price\":{\"amount\":949.99,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"MSI Claw 8 AI+ 8\\\" Intel Core Ultra 7 258V 32GB RAM 1TB Black A2VM-001US\",\"vendor\":\"PayMore Bothell\",\"id\":\"10437305565365\",\"untranslatedTitle\":\"MSI Claw 8 AI+ 8\\\" Intel Core Ultra 7 258V 32GB RAM 1TB Black A2VM-001US\",\"url\":\"\/products\/msi-claw-8-ai-8-intel-core-ultra-7-258v-32gb-ram-1tb-black-a2vm-001us-1778794317129-h2ymcijbc\",\"type\":\"\"},\"id\":\"52513208697013\",\"image\":{\"src\":\"\/\/bothellwa.paymore.com\/cdn\/shop\/files\/1778794296666hminhln.jpg?v=1778794321\"},\"sku\":\"WA02-3668A-D1R3\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"},{\"price\":{\"amount\":11.99,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"Vectrex HYPER CHASE Screen Overlay\",\"vendor\":\"PayMore Bothell\",\"id\":\"10437272731829\",\"untranslatedTitle\":\"Vectrex HYPER CHASE Screen Overlay\",\"url\":\"\/products\/vectrex-hyper-chase-screen-overlay-1778792521150-m7phb82nm\",\"type\":\"\"},\"id\":\"52513155121333\",\"image\":{\"src\":\"\/\/bothellwa.paymore.com\/cdn\/shop\/files\/1778792501120315rqhg.jpg?v=1778792524\"},\"sku\":\"WA02-3672B-R2R3\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"},{\"price\":{\"amount\":11.99,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"Vectrex RIPOFF Screen Overlay\",\"vendor\":\"PayMore Bothell\",\"id\":\"10437271584949\",\"untranslatedTitle\":\"Vectrex RIPOFF Screen Overlay\",\"url\":\"\/products\/vectrex-ripoff-screen-overlay-1778792222963-dgh5cndng\",\"type\":\"\"},\"id\":\"52513150828725\",\"image\":{\"src\":\"\/\/bothellwa.paymore.com\/cdn\/shop\/files\/1778792191669p34p921.jpg?v=1778792226\"},\"sku\":\"WA02-3672B-R2R3\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"},{\"price\":{\"amount\":11.99,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"Stargate (Sega Genesis, 1993) Cartridge Only\",\"vendor\":\"PayMore Bothell\",\"id\":\"10437263589557\",\"untranslatedTitle\":\"Stargate (Sega Genesis, 1993) Cartridge Only\",\"url\":\"\/products\/stargate-sega-genesis-1993-cartridge-only-1778789399786-meroxt9de\",\"type\":\"\"},\"id\":\"52513092632757\",\"image\":{\"src\":\"\/\/bothellwa.paymore.com\/cdn\/shop\/files\/1778789392208aixfzkl.jpg?v=1778789402\"},\"sku\":\"WA02-3672C6-R2R3\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"},{\"price\":{\"amount\":12.99,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"Super Street Fighter II (Sega Genesis, 1993) Cartridge Only\",\"vendor\":\"PayMore Bothell\",\"id\":\"10437263425717\",\"untranslatedTitle\":\"Super Street Fighter II (Sega Genesis, 1993) Cartridge Only\",\"url\":\"\/products\/super-street-fighter-ii-sega-genesis-1993-cartridge-only-1778789320482-6hvs0fsqf\",\"type\":\"\"},\"id\":\"52513092174005\",\"image\":{\"src\":\"\/\/bothellwa.paymore.com\/cdn\/shop\/files\/17787893047662k26kt0.jpg?v=1778789323\"},\"sku\":\"WA02-3672C5-R2R3\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"}]}}]]"});})();</script><script>
   window.ShopifyAnalytics = window.ShopifyAnalytics || {};
   window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
   window.ShopifyAnalytics.meta.currency = 'USD';
-  var meta = {"products":[{"id":10438169067701,"gid":"gid:\/\/shopify\/Product\/10438169067701","vendor":"PayMore Bothell","type":"","handle":"sony-playstation-3-super-slim-ps3-500gb-white-console-gaming-system-cech-4001c-1778961399876-ddjmd5w50","variants":[{"id":52515969728693,"price":10999,"name":"Sony PlayStation 3 Super Slim PS3 500GB White Console Gaming System CECH-4001C","public_title":null,"sku":"WA02-3678C-R4R2"}],"remote":false},{"id":10438168805557,"gid":"gid:\/\/shopify\/Product\/10438168805557","vendor":"PayMore Bothell","type":"","handle":"sony-playstation-4-pro-ps4-1tb-star-wars-edition-console-gaming-system-cuh-7115b-1778961115443-ug92g3z0l","variants":[{"id":52515969335477,"price":13499,"name":"Sony PlayStation 4 Pro PS4 1TB Star Wars Edition Console Gaming System CUH-7115B","public_title":null,"sku":"WA02-3674A-R4R2"}],"remote":false},{"id":10437888082101,"gid":"gid:\/\/shopify\/Product\/10437888082101","vendor":"PayMore Bothell","type":"","handle":"sony-playstation-5-ps5-dualsense-wireless-controller-black-cfi-zct1w-1778890249213-7dddqptny","variants":[{"id":52514933342389,"price":4499,"name":"Sony PlayStation 5 PS5 DualSense Wireless Controller Black CFI-ZCT1W","public_title":null,"sku":"WA02-RCY652-E5"}],"remote":false},{"id":10437885558965,"gid":"gid:\/\/shopify\/Product\/10437885558965","vendor":"PayMore Bothell","type":"","handle":"sony-playstation-4-ps4-dualshock-4-wireless-controller-sunset-orange-cuh-zct2e-1778889491465-u1zk04wd3","variants":[{"id":52514925183157,"price":2999,"name":"Sony PlayStation 4 PS4 DualShock 4 Wireless Controller Sunset Orange CUH-ZCT2E","public_title":null,"sku":"WA02-3674C-E5"}],"remote":false},{"id":10437885493429,"gid":"gid:\/\/shopify\/Product\/10437885493429","vendor":"PayMore Bothell","type":"","handle":"sony-playstation-4-ps4-dualshock-4-wireless-controller-clear-cuh-zct2u-1778889476020-9gehoa7os","variants":[{"id":52514925084853,"price":2999,"name":"Sony PlayStation 4 PS4 DualShock 4 Wireless Controller Clear CUH-ZCT2U","public_title":null,"sku":"WA02-3674D-E5"}],"remote":false},{"id":10437884117173,"gid":"gid:\/\/shopify\/Product\/10437884117173","vendor":"PayMore Bothell","type":"","handle":"hp-notebook-15-dy1024wm-15-6-i3-1005g1-1-2ghz-4gb-ram-128gb-ssd-1778888434740-5hkqhwd1u","variants":[{"id":52514921644213,"price":10999,"name":"HP NoteBook 15-DY1024WM 15.6\" i3-1005G1 1.2GHz 4GB RAM 128GB SSD","public_title":null,"sku":"WA02-3680D-R4R2"}],"remote":false},{"id":10437849972917,"gid":"gid:\/\/shopify\/Product\/10437849972917","vendor":"PayMore Bothell","type":"","handle":"steelseries-arctic-nova-pro-white-hs25tx-wireless-gaming-headset-multi-platform-1778879722862-6vvzwt9ik","variants":[{"id":52514854076597,"price":14999,"name":"SteelSeries Arctic Nova Pro White HS25TX Wireless Gaming Headset Multi-Platform","public_title":null,"sku":"WA02-3677A-E3"}],"remote":false},{"id":10437848465589,"gid":"gid:\/\/shopify\/Product\/10437848465589","vendor":"PayMore Bothell","type":"","handle":"sony-playstation-5-disc-ps5-825gb-white-console-gaming-system-cfi-1215a-1778879677344-3iila1pir","variants":[{"id":52514851913909,"price":42999,"name":"Sony PlayStation 5 Disc PS5 825GB White Console Gaming System CFI-1215A","public_title":null,"sku":"WA02-3678A-S4R2"}],"remote":false},{"id":10437336334517,"gid":"gid:\/\/shopify\/Product\/10437336334517","vendor":"PayMore Bothell","type":"","handle":"logitech-astro-a30-lightspeed-939-001985-wireless-gaming-headset-pc-and-ps-1778803023191-va1gr2drg","variants":[{"id":52513297727669,"price":4999,"name":"Logitech Astro A30 LIGHTSPEED 939-001985 Wireless Gaming Headset PC and PS","public_title":null,"sku":"WA02-3421D-R1R2"}],"remote":false},{"id":10437330763957,"gid":"gid:\/\/shopify\/Product\/10437330763957","vendor":"PayMore Bothell","type":"","handle":"cyberpower-c-series-ryzen-7-8700f-4-10ghz-16gb-ram-2tb-ssd-asus-geforce-rtx-4060-1778800677807-c2prtc380","variants":[{"id":52513279344821,"price":69999,"name":"CyberPower C-Series Ryzen 7 8700F 4.10GHz 16GB RAM 2TB SSD ASUS GeForce RTX 4060","public_title":null,"sku":"WA02-3673A-S3R4"}],"remote":false},{"id":10437305565365,"gid":"gid:\/\/shopify\/Product\/10437305565365","vendor":"PayMore Bothell","type":"","handle":"msi-claw-8-ai-8-intel-core-ultra-7-258v-32gb-ram-1tb-black-a2vm-001us-1778794317129-h2ymcijbc","variants":[{"id":52513208697013,"price":94999,"name":"MSI Claw 8 AI+ 8\" Intel Core Ultra 7 258V 32GB RAM 1TB Black A2VM-001US","public_title":null,"sku":"WA02-3668A-D1R3"}],"remote":false},{"id":10437272731829,"gid":"gid:\/\/shopify\/Product\/10437272731829","vendor":"PayMore Bothell","type":"","handle":"vectrex-hyper-chase-screen-overlay-1778792521150-m7phb82nm","variants":[{"id":52513155121333,"price":1199,"name":"Vectrex HYPER CHASE Screen Overlay","public_title":null,"sku":"WA02-3672B-R2R3"}],"remote":false},{"id":10437271584949,"gid":"gid:\/\/shopify\/Product\/10437271584949","vendor":"PayMore Bothell","type":"","handle":"vectrex-ripoff-screen-overlay-1778792222963-dgh5cndng","variants":[{"id":52513150828725,"price":1199,"name":"Vectrex RIPOFF Screen Overlay","public_title":null,"sku":"WA02-3672B-R2R3"}],"remote":false},{"id":10437264408757,"gid":"gid:\/\/shopify\/Product\/10437264408757","vendor":"PayMore Bothell","type":"","handle":"lenovo-thinkpad-p1-gen-6-16aph8-16-i9-13900h-2-6ghz-32gb-ram-1tb-ssd-rtx-2000-1778789717062-c1y8vok0v","variants":[{"id":52513095123125,"price":119999,"name":"Lenovo ThinkPad P1 Gen 6 16APH8 16\" i9-13900H 2.6GHz 32GB RAM 1TB SSD RTX 2000","public_title":null,"sku":"WA02-3671A-S2R3"}],"remote":false},{"id":10437263589557,"gid":"gid:\/\/shopify\/Product\/10437263589557","vendor":"PayMore Bothell","type":"","handle":"stargate-sega-genesis-1993-cartridge-only-1778789399786-meroxt9de","variants":[{"id":52513092632757,"price":1199,"name":"Stargate (Sega Genesis, 1993) Cartridge Only","public_title":null,"sku":"WA02-3672C6-R2R3"}],"remote":false},{"id":10437263425717,"gid":"gid:\/\/shopify\/Product\/10437263425717","vendor":"PayMore Bothell","type":"","handle":"super-street-fighter-ii-sega-genesis-1993-cartridge-only-1778789320482-6hvs0fsqf","variants":[{"id":52513092174005,"price":1299,"name":"Super Street Fighter II (Sega Genesis, 1993) Cartridge Only","public_title":null,"sku":"WA02-3672C5-R2R3"}],"remote":false}],"page":{"pageType":"collection","resourceType":"collection","resourceId":357382815925,"requestId":"100ff57b-6fff-4edf-8bee-54678530c369-1778965802"}};
+  var meta = {"products":[{"id":10441629499573,"gid":"gid:\/\/shopify\/Product\/10441629499573","vendor":"PayMore Bothell","type":"","handle":"dell-xps-p151g001-13-4-i7-1280p-1-8ghz-32gb-ram-512gb-ssd-1779134033704-s1u2abl7i","variants":[{"id":52536097505461,"price":62999,"name":"Dell XPS P151G001 13.4\" i7-1280P 1.8GHz 32GB RAM 512GB SSD","public_title":null,"sku":"WA02-3689A-S2R2"}],"remote":false},{"id":10438187581621,"gid":"gid:\/\/shopify\/Product\/10438187581621","vendor":"PayMore Bothell","type":"","handle":"nintendo-switch-v2-console-gaming-system-hac-001-01-black-1778968781534-xuixdhwy6","variants":[{"id":52516104503477,"price":14999,"name":"Nintendo Switch v2 Console Gaming System HAC-001(-01)  Black","public_title":null,"sku":"WA02-3681A-R4R2"}],"remote":false},{"id":10438187548853,"gid":"gid:\/\/shopify\/Product\/10438187548853","vendor":"PayMore Bothell","type":"","handle":"sony-playstation-5-digital-ps5-825gb-black-console-gaming-system-cfi-1215b-1778968762031-nkxtnblu8","variants":[{"id":52516104437941,"price":37499,"name":"Sony PlayStation 5 Digital PS5 825GB Black Console Gaming System CFI-1215B","public_title":null,"sku":"WA02-3682A-R4R2"}],"remote":false},{"id":10438187450549,"gid":"gid:\/\/shopify\/Product\/10438187450549","vendor":"PayMore Bothell","type":"","handle":"bowers-and-wilkins-formation-bass-subwoofer-black-fp40258-1778968744844-ou063nh3a","variants":[{"id":52516104339637,"price":34999,"name":"Bowers and Wilkins Formation Bass Subwoofer Black FP40258","public_title":null,"sku":"WA02-3683A-R1R4"}],"remote":false},{"id":10437888082101,"gid":"gid:\/\/shopify\/Product\/10437888082101","vendor":"PayMore Bothell","type":"","handle":"sony-playstation-5-ps5-dualsense-wireless-controller-black-cfi-zct1w-1778890249213-7dddqptny","variants":[{"id":52514933342389,"price":4499,"name":"Sony PlayStation 5 PS5 DualSense Wireless Controller Black CFI-ZCT1W","public_title":null,"sku":"WA02-RCY652-E5"}],"remote":false},{"id":10437885558965,"gid":"gid:\/\/shopify\/Product\/10437885558965","vendor":"PayMore Bothell","type":"","handle":"sony-playstation-4-ps4-dualshock-4-wireless-controller-sunset-orange-cuh-zct2e-1778889491465-u1zk04wd3","variants":[{"id":52514925183157,"price":2999,"name":"Sony PlayStation 4 PS4 DualShock 4 Wireless Controller Sunset Orange CUH-ZCT2E","public_title":null,"sku":"WA02-3674C-E5"}],"remote":false},{"id":10437884117173,"gid":"gid:\/\/shopify\/Product\/10437884117173","vendor":"PayMore Bothell","type":"","handle":"hp-notebook-15-dy1024wm-15-6-i3-1005g1-1-2ghz-4gb-ram-128gb-ssd-1778888434740-5hkqhwd1u","variants":[{"id":52514921644213,"price":10999,"name":"HP NoteBook 15-DY1024WM 15.6\" i3-1005G1 1.2GHz 4GB RAM 128GB SSD","public_title":null,"sku":"WA02-3680D-R4R2"}],"remote":false},{"id":10437849972917,"gid":"gid:\/\/shopify\/Product\/10437849972917","vendor":"PayMore Bothell","type":"","handle":"steelseries-arctic-nova-pro-white-hs25tx-wireless-gaming-headset-multi-platform-1778879722862-6vvzwt9ik","variants":[{"id":52514854076597,"price":14999,"name":"SteelSeries Arctic Nova Pro White HS25TX Wireless Gaming Headset Multi-Platform","public_title":null,"sku":"WA02-3677A-E3"}],"remote":false},{"id":10437848465589,"gid":"gid:\/\/shopify\/Product\/10437848465589","vendor":"PayMore Bothell","type":"","handle":"sony-playstation-5-disc-ps5-825gb-white-console-gaming-system-cfi-1215a-1778879677344-3iila1pir","variants":[{"id":52514851913909,"price":42999,"name":"Sony PlayStation 5 Disc PS5 825GB White Console Gaming System CFI-1215A","public_title":null,"sku":"WA02-3678A-S4R2"}],"remote":false},{"id":10437336334517,"gid":"gid:\/\/shopify\/Product\/10437336334517","vendor":"PayMore Bothell","type":"","handle":"logitech-astro-a30-lightspeed-939-001985-wireless-gaming-headset-pc-and-ps-1778803023191-va1gr2drg","variants":[{"id":52513297727669,"price":4999,"name":"Logitech Astro A30 LIGHTSPEED 939-001985 Wireless Gaming Headset PC and PS","public_title":null,"sku":"WA02-3421D-R1R2"}],"remote":false},{"id":10437330763957,"gid":"gid:\/\/shopify\/Product\/10437330763957","vendor":"PayMore Bothell","type":"","handle":"cyberpower-c-series-ryzen-7-8700f-4-10ghz-16gb-ram-2tb-ssd-asus-geforce-rtx-4060-1778800677807-c2prtc380","variants":[{"id":52513279344821,"price":69999,"name":"CyberPower C-Series Ryzen 7 8700F 4.10GHz 16GB RAM 2TB SSD ASUS GeForce RTX 4060","public_title":null,"sku":"WA02-3673A-S3R4"}],"remote":false},{"id":10437305565365,"gid":"gid:\/\/shopify\/Product\/10437305565365","vendor":"PayMore Bothell","type":"","handle":"msi-claw-8-ai-8-intel-core-ultra-7-258v-32gb-ram-1tb-black-a2vm-001us-1778794317129-h2ymcijbc","variants":[{"id":52513208697013,"price":94999,"name":"MSI Claw 8 AI+ 8\" Intel Core Ultra 7 258V 32GB RAM 1TB Black A2VM-001US","public_title":null,"sku":"WA02-3668A-D1R3"}],"remote":false},{"id":10437272731829,"gid":"gid:\/\/shopify\/Product\/10437272731829","vendor":"PayMore Bothell","type":"","handle":"vectrex-hyper-chase-screen-overlay-1778792521150-m7phb82nm","variants":[{"id":52513155121333,"price":1199,"name":"Vectrex HYPER CHASE Screen Overlay","public_title":null,"sku":"WA02-3672B-R2R3"}],"remote":false},{"id":10437271584949,"gid":"gid:\/\/shopify\/Product\/10437271584949","vendor":"PayMore Bothell","type":"","handle":"vectrex-ripoff-screen-overlay-1778792222963-dgh5cndng","variants":[{"id":52513150828725,"price":1199,"name":"Vectrex RIPOFF Screen Overlay","public_title":null,"sku":"WA02-3672B-R2R3"}],"remote":false},{"id":10437263589557,"gid":"gid:\/\/shopify\/Product\/10437263589557","vendor":"PayMore Bothell","type":"","handle":"stargate-sega-genesis-1993-cartridge-only-1778789399786-meroxt9de","variants":[{"id":52513092632757,"price":1199,"name":"Stargate (Sega Genesis, 1993) Cartridge Only","public_title":null,"sku":"WA02-3672C6-R2R3"}],"remote":false},{"id":10437263425717,"gid":"gid:\/\/shopify\/Product\/10437263425717","vendor":"PayMore Bothell","type":"","handle":"super-street-fighter-ii-sega-genesis-1993-cartridge-only-1778789320482-6hvs0fsqf","variants":[{"id":52513092174005,"price":1299,"name":"Super Street Fighter II (Sega Genesis, 1993) Cartridge Only","public_title":null,"sku":"WA02-3672C5-R2R3"}],"remote":false}],"page":{"pageType":"collection","resourceType":"collection","resourceId":357382815925,"requestId":"9f7192a0-6927-4288-8c0e-3e34f1ea7127-1779134286"}};
   for (var attr in meta) {
     window.ShopifyAnalytics.meta[attr] = meta[attr];
   }
@@ -656,7 +656,7 @@ first.parentNode.insertBefore(script, first);
 
     };
     trekkie.load(
-      {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":64643072181,"isMerchantRequest":null,"themeId":189550592181,"themeCityHash":"6697613129473363178","contentLanguage":"en","currency":"USD","eventMetadataId":"06f089da-82c9-469e-a927-dd89c547267c"},"isServerSideCookieWritingEnabled":true,"monorailRegion":"shop_domain","enabledBetaFlags":["b5387b81","d5bdd5d0"]},"Session Attribution":{},"S2S":{"facebookCapiEnabled":false,"source":"trekkie-storefront-renderer","apiClientId":580111}}
+      {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":64643072181,"isMerchantRequest":null,"themeId":189550592181,"themeCityHash":"6697613129473363178","contentLanguage":"en","currency":"USD","eventMetadataId":"efe3dbf6-8ef0-466e-9282-c06fe83610f6"},"isServerSideCookieWritingEnabled":true,"monorailRegion":"shop_domain","enabledBetaFlags":["b5387b81","d5bdd5d0"]},"Session Attribution":{},"S2S":{"facebookCapiEnabled":false,"source":"trekkie-storefront-renderer","apiClientId":580111}}
     );
 
     var loaded = false;
@@ -671,7 +671,7 @@ first.parentNode.insertBefore(script, first);
       try { window.ShopifyAnalytics.merchantGoogleAnalytics.call(this); } catch(error) {};
       document.write = originalDocumentWrite;
 
-      window.ShopifyAnalytics.lib.page(null,{"pageType":"collection","resourceType":"collection","resourceId":357382815925,"requestId":"100ff57b-6fff-4edf-8bee-54678530c369-1778965802","shopifyEmitted":true});
+      window.ShopifyAnalytics.lib.page(null,{"pageType":"collection","resourceType":"collection","resourceId":357382815925,"requestId":"9f7192a0-6927-4288-8c0e-3e34f1ea7127-1779134286","shopifyEmitted":true});
 
       var match = window.location.pathname.match(/checkouts\/(.+)\/(thank_you|post_purchase)/)
       var token = match? match[1]: undefined;
@@ -704,7 +704,7 @@ first.parentNode.insertBefore(script, first);
   data-shs-logs-sample-rate="1"
   data-shs-beacon-endpoint="https://bothellwa.paymore.com/api/collect"
 ></script>
-<script>window.ShopifyAnalytics = window.ShopifyAnalytics || {};window.ShopifyAnalytics.performance = window.ShopifyAnalytics.performance || {};(function () {const LONG_FRAME_THRESHOLD = 50;const longAnimationFrames = [];let activeRafId = null;function collectLongFrames() {let previousTime = null;function rafMonitor(now) {if (activeRafId === null) {return;}const delta = now - previousTime;if (delta > LONG_FRAME_THRESHOLD) {longAnimationFrames.push({startTime: previousTime,endTime: now,});}previousTime = now;activeRafId = requestAnimationFrame(rafMonitor);}previousTime = performance.now();activeRafId = requestAnimationFrame(rafMonitor);}if (!PerformanceObserver.supportedEntryTypes.includes('long-animation-frame')) {collectLongFrames();const timeoutId = setTimeout(() => {cancelAnimationFrame(activeRafId);}, 10_000);window.ShopifyAnalytics.performance.getLongAnimationFrames = function(stopCollection = false) {if (stopCollection) {clearTimeout(timeoutId);cancelAnimationFrame(activeRafId);}return longAnimationFrames;};}})();</script></head>
+</head>
 
   <body class="gradient">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
@@ -2465,8 +2465,8 @@ Item added to your cart
                                     stroke-linejoin="round" />
                                 </svg>
 
-                                <span aria-hidden="true">In stock (627)</span>
-                                <span class="visually-hidden">In stock (627 products)</span
+                                <span aria-hidden="true">In stock (611)</span>
+                                <span class="visually-hidden">In stock (611 products)</span
                                 >
                               </label>
                             </li><li class="list-menu__item facets__item">
@@ -2558,8 +2558,8 @@ Item added to your cart
                                     stroke-linejoin="round" />
                                 </svg>
 
-                                <span aria-hidden="true">In stock (627)</span>
-                                <span class="visually-hidden">In stock (627 products)</span
+                                <span aria-hidden="true">In stock (611)</span>
+                                <span class="visually-hidden">In stock (611 products)</span
                                 >
                               </label>
                             </li><li class="list-menu__item facets__item">
@@ -2632,7 +2632,7 @@ Item added to your cart
                       id="Facet-2-template--27264681672885__product-grid"
                       class="facets__display"
                     >
-                      <div class="facets__header"><span class="facets__selected">The highest price is $1,589.99</span><facet-remove>
+                      <div class="facets__header"><span class="facets__selected">The highest price is $1,409.99</span><facet-remove>
                             <a href="/collections/newly-listed-devices" class="facets__reset link underlined-link">
                               Reset
                             </a>
@@ -2645,7 +2645,7 @@ Item added to your cart
                             name="filter.v.price.gte"
                             id="Filter-Price-GTE"type="number"
                             placeholder="0"
-                            min="0"max="1589.99"
+                            min="0"max="1409.99"
                             
                           >
                           <label class="field__label" for="Filter-Price-GTE">From</label>
@@ -2654,8 +2654,8 @@ Item added to your cart
                             class="field__input"
                             name="filter.v.price.lte"
                             id="Filter-Price-LTE"type="number"
-                            min="0"placeholder="1589.99"
-                              max="1589.99"
+                            min="0"placeholder="1409.99"
+                              max="1409.99"
                             
                           >
                           <label class="field__label" for="Filter-Price-LTE">To</label>
@@ -4291,52 +4291,8 @@ Item added to your cart
                                 <input
                                   type="checkbox"
                                   name="filter.p.m.custom.platform"
-                                  value="Sony PlayStation 3"
-                                  id="Filter-filter.p.m.custom.platform-37"
-                                  
-                                  
-                                >
-
-                                <svg
-                                  width="1.6rem"
-                                  height="1.6rem"
-                                  viewBox="0 0 16 16"
-                                  aria-hidden="true"
-                                  focusable="false"
-                                >
-                                  <rect width="16" height="16" stroke="currentColor" fill="none" stroke-width="1"></rect>
-                                </svg>
-
-                                <svg
-                                  aria-hidden="true"
-                                  class="icon icon-checkmark"
-                                  width="1.1rem"
-                                  height="0.7rem"
-                                  viewBox="0 0 11 7"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <path d="M1.5 3.5L2.83333 4.75L4.16667 6L9.5 1"
-                                    stroke="currentColor"
-                                    stroke-width="1.75"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                                </svg>
-
-                                <span aria-hidden="true">Sony PlayStation 3 (1)</span>
-                                <span class="visually-hidden">Sony PlayStation 3 (1 product)</span
-                                >
-                              </label>
-                            </li><li class="list-menu__item facets__item">
-                              <label
-                                for="Filter-filter.p.m.custom.platform-38"
-                                class="facet-checkbox"
-                              >
-                                <input
-                                  type="checkbox"
-                                  name="filter.p.m.custom.platform"
                                   value="Sony PlayStation 3 PS3"
-                                  id="Filter-filter.p.m.custom.platform-38"
+                                  id="Filter-filter.p.m.custom.platform-37"
                                   
                                   
                                 >
@@ -4373,13 +4329,57 @@ Item added to your cart
                               </label>
                             </li><li class="list-menu__item facets__item">
                               <label
-                                for="Filter-filter.p.m.custom.platform-39"
+                                for="Filter-filter.p.m.custom.platform-38"
                                 class="facet-checkbox"
                               >
                                 <input
                                   type="checkbox"
                                   name="filter.p.m.custom.platform"
                                   value="Sony PlayStation 4"
+                                  id="Filter-filter.p.m.custom.platform-38"
+                                  
+                                  
+                                >
+
+                                <svg
+                                  width="1.6rem"
+                                  height="1.6rem"
+                                  viewBox="0 0 16 16"
+                                  aria-hidden="true"
+                                  focusable="false"
+                                >
+                                  <rect width="16" height="16" stroke="currentColor" fill="none" stroke-width="1"></rect>
+                                </svg>
+
+                                <svg
+                                  aria-hidden="true"
+                                  class="icon icon-checkmark"
+                                  width="1.1rem"
+                                  height="0.7rem"
+                                  viewBox="0 0 11 7"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path d="M1.5 3.5L2.83333 4.75L4.16667 6L9.5 1"
+                                    stroke="currentColor"
+                                    stroke-width="1.75"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                </svg>
+
+                                <span aria-hidden="true">Sony PlayStation 4 (1)</span>
+                                <span class="visually-hidden">Sony PlayStation 4 (1 product)</span
+                                >
+                              </label>
+                            </li><li class="list-menu__item facets__item">
+                              <label
+                                for="Filter-filter.p.m.custom.platform-39"
+                                class="facet-checkbox"
+                              >
+                                <input
+                                  type="checkbox"
+                                  name="filter.p.m.custom.platform"
+                                  value="Sony PlayStation 4 PS4"
                                   id="Filter-filter.p.m.custom.platform-39"
                                   
                                   
@@ -4411,8 +4411,8 @@ Item added to your cart
                                     stroke-linejoin="round" />
                                 </svg>
 
-                                <span aria-hidden="true">Sony PlayStation 4 (2)</span>
-                                <span class="visually-hidden">Sony PlayStation 4 (2 products)</span
+                                <span aria-hidden="true">Sony PlayStation 4 PS4 (71)</span>
+                                <span class="visually-hidden">Sony PlayStation 4 PS4 (71 products)</span
                                 >
                               </label>
                             </li><li class="list-menu__item facets__item">
@@ -4423,52 +4423,8 @@ Item added to your cart
                                 <input
                                   type="checkbox"
                                   name="filter.p.m.custom.platform"
-                                  value="Sony PlayStation 4 PS4"
-                                  id="Filter-filter.p.m.custom.platform-40"
-                                  
-                                  
-                                >
-
-                                <svg
-                                  width="1.6rem"
-                                  height="1.6rem"
-                                  viewBox="0 0 16 16"
-                                  aria-hidden="true"
-                                  focusable="false"
-                                >
-                                  <rect width="16" height="16" stroke="currentColor" fill="none" stroke-width="1"></rect>
-                                </svg>
-
-                                <svg
-                                  aria-hidden="true"
-                                  class="icon icon-checkmark"
-                                  width="1.1rem"
-                                  height="0.7rem"
-                                  viewBox="0 0 11 7"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <path d="M1.5 3.5L2.83333 4.75L4.16667 6L9.5 1"
-                                    stroke="currentColor"
-                                    stroke-width="1.75"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                                </svg>
-
-                                <span aria-hidden="true">Sony PlayStation 4 PS4 (72)</span>
-                                <span class="visually-hidden">Sony PlayStation 4 PS4 (72 products)</span
-                                >
-                              </label>
-                            </li><li class="list-menu__item facets__item">
-                              <label
-                                for="Filter-filter.p.m.custom.platform-41"
-                                class="facet-checkbox"
-                              >
-                                <input
-                                  type="checkbox"
-                                  name="filter.p.m.custom.platform"
                                   value="Sony PlayStation 5"
-                                  id="Filter-filter.p.m.custom.platform-41"
+                                  id="Filter-filter.p.m.custom.platform-40"
                                   
                                   
                                 >
@@ -4505,14 +4461,14 @@ Item added to your cart
                               </label>
                             </li><li class="list-menu__item facets__item">
                               <label
-                                for="Filter-filter.p.m.custom.platform-42"
+                                for="Filter-filter.p.m.custom.platform-41"
                                 class="facet-checkbox"
                               >
                                 <input
                                   type="checkbox"
                                   name="filter.p.m.custom.platform"
                                   value="Sony PlayStation 5 PS5"
-                                  id="Filter-filter.p.m.custom.platform-42"
+                                  id="Filter-filter.p.m.custom.platform-41"
                                   
                                   
                                 >
@@ -4549,14 +4505,14 @@ Item added to your cart
                               </label>
                             </li><li class="list-menu__item facets__item">
                               <label
-                                for="Filter-filter.p.m.custom.platform-43"
+                                for="Filter-filter.p.m.custom.platform-42"
                                 class="facet-checkbox"
                               >
                                 <input
                                   type="checkbox"
                                   name="filter.p.m.custom.platform"
                                   value="Sony PlayStation Portable PSP"
-                                  id="Filter-filter.p.m.custom.platform-43"
+                                  id="Filter-filter.p.m.custom.platform-42"
                                   
                                   
                                 >
@@ -4593,14 +4549,14 @@ Item added to your cart
                               </label>
                             </li><li class="list-menu__item facets__item">
                               <label
-                                for="Filter-filter.p.m.custom.platform-44"
+                                for="Filter-filter.p.m.custom.platform-43"
                                 class="facet-checkbox"
                               >
                                 <input
                                   type="checkbox"
                                   name="filter.p.m.custom.platform"
                                   value="Vectrex"
-                                  id="Filter-filter.p.m.custom.platform-44"
+                                  id="Filter-filter.p.m.custom.platform-43"
                                   
                                   
                                 >
@@ -4637,14 +4593,14 @@ Item added to your cart
                               </label>
                             </li><li class="list-menu__item facets__item">
                               <label
-                                for="Filter-filter.p.m.custom.platform-45"
+                                for="Filter-filter.p.m.custom.platform-44"
                                 class="facet-checkbox"
                               >
                                 <input
                                   type="checkbox"
                                   name="filter.p.m.custom.platform"
                                   value="Xbox 360"
-                                  id="Filter-filter.p.m.custom.platform-45"
+                                  id="Filter-filter.p.m.custom.platform-44"
                                   
                                   
                                 >
@@ -4681,14 +4637,14 @@ Item added to your cart
                               </label>
                             </li><li class="list-menu__item facets__item">
                               <label
-                                for="Filter-filter.p.m.custom.platform-46"
+                                for="Filter-filter.p.m.custom.platform-45"
                                 class="facet-checkbox"
                               >
                                 <input
                                   type="checkbox"
                                   name="filter.p.m.custom.platform"
                                   value="Xbox One"
-                                  id="Filter-filter.p.m.custom.platform-46"
+                                  id="Filter-filter.p.m.custom.platform-45"
                                   
                                   
                                 >
@@ -4725,14 +4681,14 @@ Item added to your cart
                               </label>
                             </li><li class="list-menu__item facets__item">
                               <label
-                                for="Filter-filter.p.m.custom.platform-47"
+                                for="Filter-filter.p.m.custom.platform-46"
                                 class="facet-checkbox"
                               >
                                 <input
                                   type="checkbox"
                                   name="filter.p.m.custom.platform"
                                   value="Xbox One / Xbox Series X/S / PC"
-                                  id="Filter-filter.p.m.custom.platform-47"
+                                  id="Filter-filter.p.m.custom.platform-46"
                                   
                                   
                                 >
@@ -4769,14 +4725,14 @@ Item added to your cart
                               </label>
                             </li><li class="list-menu__item facets__item">
                               <label
-                                for="Filter-filter.p.m.custom.platform-48"
+                                for="Filter-filter.p.m.custom.platform-47"
                                 class="facet-checkbox"
                               >
                                 <input
                                   type="checkbox"
                                   name="filter.p.m.custom.platform"
                                   value="Xbox One, Xbox Series X/S, and Windows 10"
-                                  id="Filter-filter.p.m.custom.platform-48"
+                                  id="Filter-filter.p.m.custom.platform-47"
                                   
                                   
                                 >
@@ -6408,52 +6364,8 @@ Item added to your cart
                                 <input
                                   type="checkbox"
                                   name="filter.p.m.custom.platform"
-                                  value="Sony PlayStation 3"
-                                  id="Filter-filter.p.m.custom.platform-37-no-js"
-                                  
-                                  
-                                >
-
-                                <svg
-                                  width="1.6rem"
-                                  height="1.6rem"
-                                  viewBox="0 0 16 16"
-                                  aria-hidden="true"
-                                  focusable="false"
-                                >
-                                  <rect width="16" height="16" stroke="currentColor" fill="none" stroke-width="1"></rect>
-                                </svg>
-
-                                <svg
-                                  aria-hidden="true"
-                                  class="icon icon-checkmark"
-                                  width="1.1rem"
-                                  height="0.7rem"
-                                  viewBox="0 0 11 7"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <path d="M1.5 3.5L2.83333 4.75L4.16667 6L9.5 1"
-                                    stroke="currentColor"
-                                    stroke-width="1.75"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                                </svg>
-
-                                <span aria-hidden="true">Sony PlayStation 3 (1)</span>
-                                <span class="visually-hidden">Sony PlayStation 3 (1 product)</span
-                                >
-                              </label>
-                            </li><li class="list-menu__item facets__item">
-                              <label
-                                for="Filter-filter.p.m.custom.platform-38-no-js"
-                                class="facet-checkbox"
-                              >
-                                <input
-                                  type="checkbox"
-                                  name="filter.p.m.custom.platform"
                                   value="Sony PlayStation 3 PS3"
-                                  id="Filter-filter.p.m.custom.platform-38-no-js"
+                                  id="Filter-filter.p.m.custom.platform-37-no-js"
                                   
                                   
                                 >
@@ -6490,13 +6402,57 @@ Item added to your cart
                               </label>
                             </li><li class="list-menu__item facets__item">
                               <label
-                                for="Filter-filter.p.m.custom.platform-39-no-js"
+                                for="Filter-filter.p.m.custom.platform-38-no-js"
                                 class="facet-checkbox"
                               >
                                 <input
                                   type="checkbox"
                                   name="filter.p.m.custom.platform"
                                   value="Sony PlayStation 4"
+                                  id="Filter-filter.p.m.custom.platform-38-no-js"
+                                  
+                                  
+                                >
+
+                                <svg
+                                  width="1.6rem"
+                                  height="1.6rem"
+                                  viewBox="0 0 16 16"
+                                  aria-hidden="true"
+                                  focusable="false"
+                                >
+                                  <rect width="16" height="16" stroke="currentColor" fill="none" stroke-width="1"></rect>
+                                </svg>
+
+                                <svg
+                                  aria-hidden="true"
+                                  class="icon icon-checkmark"
+                                  width="1.1rem"
+                                  height="0.7rem"
+                                  viewBox="0 0 11 7"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path d="M1.5 3.5L2.83333 4.75L4.16667 6L9.5 1"
+                                    stroke="currentColor"
+                                    stroke-width="1.75"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                </svg>
+
+                                <span aria-hidden="true">Sony PlayStation 4 (1)</span>
+                                <span class="visually-hidden">Sony PlayStation 4 (1 product)</span
+                                >
+                              </label>
+                            </li><li class="list-menu__item facets__item">
+                              <label
+                                for="Filter-filter.p.m.custom.platform-39-no-js"
+                                class="facet-checkbox"
+                              >
+                                <input
+                                  type="checkbox"
+                                  name="filter.p.m.custom.platform"
+                                  value="Sony PlayStation 4 PS4"
                                   id="Filter-filter.p.m.custom.platform-39-no-js"
                                   
                                   
@@ -6528,8 +6484,8 @@ Item added to your cart
                                     stroke-linejoin="round" />
                                 </svg>
 
-                                <span aria-hidden="true">Sony PlayStation 4 (2)</span>
-                                <span class="visually-hidden">Sony PlayStation 4 (2 products)</span
+                                <span aria-hidden="true">Sony PlayStation 4 PS4 (71)</span>
+                                <span class="visually-hidden">Sony PlayStation 4 PS4 (71 products)</span
                                 >
                               </label>
                             </li><li class="list-menu__item facets__item">
@@ -6540,52 +6496,8 @@ Item added to your cart
                                 <input
                                   type="checkbox"
                                   name="filter.p.m.custom.platform"
-                                  value="Sony PlayStation 4 PS4"
-                                  id="Filter-filter.p.m.custom.platform-40-no-js"
-                                  
-                                  
-                                >
-
-                                <svg
-                                  width="1.6rem"
-                                  height="1.6rem"
-                                  viewBox="0 0 16 16"
-                                  aria-hidden="true"
-                                  focusable="false"
-                                >
-                                  <rect width="16" height="16" stroke="currentColor" fill="none" stroke-width="1"></rect>
-                                </svg>
-
-                                <svg
-                                  aria-hidden="true"
-                                  class="icon icon-checkmark"
-                                  width="1.1rem"
-                                  height="0.7rem"
-                                  viewBox="0 0 11 7"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <path d="M1.5 3.5L2.83333 4.75L4.16667 6L9.5 1"
-                                    stroke="currentColor"
-                                    stroke-width="1.75"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                                </svg>
-
-                                <span aria-hidden="true">Sony PlayStation 4 PS4 (72)</span>
-                                <span class="visually-hidden">Sony PlayStation 4 PS4 (72 products)</span
-                                >
-                              </label>
-                            </li><li class="list-menu__item facets__item">
-                              <label
-                                for="Filter-filter.p.m.custom.platform-41-no-js"
-                                class="facet-checkbox"
-                              >
-                                <input
-                                  type="checkbox"
-                                  name="filter.p.m.custom.platform"
                                   value="Sony PlayStation 5"
-                                  id="Filter-filter.p.m.custom.platform-41-no-js"
+                                  id="Filter-filter.p.m.custom.platform-40-no-js"
                                   
                                   
                                 >
@@ -6622,14 +6534,14 @@ Item added to your cart
                               </label>
                             </li><li class="list-menu__item facets__item">
                               <label
-                                for="Filter-filter.p.m.custom.platform-42-no-js"
+                                for="Filter-filter.p.m.custom.platform-41-no-js"
                                 class="facet-checkbox"
                               >
                                 <input
                                   type="checkbox"
                                   name="filter.p.m.custom.platform"
                                   value="Sony PlayStation 5 PS5"
-                                  id="Filter-filter.p.m.custom.platform-42-no-js"
+                                  id="Filter-filter.p.m.custom.platform-41-no-js"
                                   
                                   
                                 >
@@ -6666,14 +6578,14 @@ Item added to your cart
                               </label>
                             </li><li class="list-menu__item facets__item">
                               <label
-                                for="Filter-filter.p.m.custom.platform-43-no-js"
+                                for="Filter-filter.p.m.custom.platform-42-no-js"
                                 class="facet-checkbox"
                               >
                                 <input
                                   type="checkbox"
                                   name="filter.p.m.custom.platform"
                                   value="Sony PlayStation Portable PSP"
-                                  id="Filter-filter.p.m.custom.platform-43-no-js"
+                                  id="Filter-filter.p.m.custom.platform-42-no-js"
                                   
                                   
                                 >
@@ -6710,14 +6622,14 @@ Item added to your cart
                               </label>
                             </li><li class="list-menu__item facets__item">
                               <label
-                                for="Filter-filter.p.m.custom.platform-44-no-js"
+                                for="Filter-filter.p.m.custom.platform-43-no-js"
                                 class="facet-checkbox"
                               >
                                 <input
                                   type="checkbox"
                                   name="filter.p.m.custom.platform"
                                   value="Vectrex"
-                                  id="Filter-filter.p.m.custom.platform-44-no-js"
+                                  id="Filter-filter.p.m.custom.platform-43-no-js"
                                   
                                   
                                 >
@@ -6754,14 +6666,14 @@ Item added to your cart
                               </label>
                             </li><li class="list-menu__item facets__item">
                               <label
-                                for="Filter-filter.p.m.custom.platform-45-no-js"
+                                for="Filter-filter.p.m.custom.platform-44-no-js"
                                 class="facet-checkbox"
                               >
                                 <input
                                   type="checkbox"
                                   name="filter.p.m.custom.platform"
                                   value="Xbox 360"
-                                  id="Filter-filter.p.m.custom.platform-45-no-js"
+                                  id="Filter-filter.p.m.custom.platform-44-no-js"
                                   
                                   
                                 >
@@ -6798,14 +6710,14 @@ Item added to your cart
                               </label>
                             </li><li class="list-menu__item facets__item">
                               <label
-                                for="Filter-filter.p.m.custom.platform-46-no-js"
+                                for="Filter-filter.p.m.custom.platform-45-no-js"
                                 class="facet-checkbox"
                               >
                                 <input
                                   type="checkbox"
                                   name="filter.p.m.custom.platform"
                                   value="Xbox One"
-                                  id="Filter-filter.p.m.custom.platform-46-no-js"
+                                  id="Filter-filter.p.m.custom.platform-45-no-js"
                                   
                                   
                                 >
@@ -6842,14 +6754,14 @@ Item added to your cart
                               </label>
                             </li><li class="list-menu__item facets__item">
                               <label
-                                for="Filter-filter.p.m.custom.platform-47-no-js"
+                                for="Filter-filter.p.m.custom.platform-46-no-js"
                                 class="facet-checkbox"
                               >
                                 <input
                                   type="checkbox"
                                   name="filter.p.m.custom.platform"
                                   value="Xbox One / Xbox Series X/S / PC"
-                                  id="Filter-filter.p.m.custom.platform-47-no-js"
+                                  id="Filter-filter.p.m.custom.platform-46-no-js"
                                   
                                   
                                 >
@@ -6886,14 +6798,14 @@ Item added to your cart
                               </label>
                             </li><li class="list-menu__item facets__item">
                               <label
-                                for="Filter-filter.p.m.custom.platform-48-no-js"
+                                for="Filter-filter.p.m.custom.platform-47-no-js"
                                 class="facet-checkbox"
                               >
                                 <input
                                   type="checkbox"
                                   name="filter.p.m.custom.platform"
                                   value="Xbox One, Xbox Series X/S, and Windows 10"
-                                  id="Filter-filter.p.m.custom.platform-48-no-js"
+                                  id="Filter-filter.p.m.custom.platform-47-no-js"
                                   
                                   
                                 >
@@ -7025,7 +6937,7 @@ Item added to your cart
               </noscript>
             </div><div class="product-count light" role="status">
             <h2 class="product-count__text text-body">
-              <span id="ProductCountDesktop">634 products
+              <span id="ProductCountDesktop">618 products
 </span>
             </h2>
             <div class="loading-overlay__spinner">
@@ -7087,7 +6999,7 @@ Item added to your cart
 </h2>
                 <h2 class="mobile-facets__heading small-hide">Filter
 </h2>
-                <p class="mobile-facets__count">634 products
+                <p class="mobile-facets__count">618 products
 </p>
               </div>
             </div>
@@ -7178,8 +7090,8 @@ Item added to your cart
                                     <path d="M1.5 3.5L2.83333 4.75L4.16667 6L9.5 1" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" />
                                   </svg>
 
-                                  <span aria-hidden="true">In stock (627)</span>
-                                  <span class="visually-hidden">In stock (627 products)</span
+                                  <span aria-hidden="true">In stock (611)</span>
+                                  <span class="visually-hidden">In stock (611 products)</span
                                   >
                                 </label>
                               </li><li class="mobile-facets__item list-menu__item">
@@ -7295,7 +7207,7 @@ Item added to your cart
 
                             Price
                           </button><p class="mobile-facets__info">
-                            The highest price is $1,589.99
+                            The highest price is $1,409.99
                           </p>
 
                           <price-range class="facets__price">
@@ -7307,7 +7219,7 @@ Item added to your cart
                                 id="Mobile-Filter-Price-GTE"type="number"
                                 placeholder="0"
                                 min="0"
-                                inputmode="decimal"max="1589.99"
+                                inputmode="decimal"max="1409.99"
                                 
                               >
                               <label class="field__label" for="Mobile-Filter-Price-GTE">From</label>
@@ -7320,8 +7232,8 @@ Item added to your cart
                                 name="filter.v.price.lte"
                                 id="Mobile-Filter-Price-LTE"type="number"
                                 min="0"
-                                inputmode="decimal"placeholder="1589.99"
-                                  max="1589.99"
+                                inputmode="decimal"placeholder="1409.99"
+                                  max="1409.99"
                                 
                               >
                               <label class="field__label" for="Mobile-Filter-Price-LTE">To</label>
@@ -8952,51 +8864,8 @@ Item added to your cart
                                     class="mobile-facets__checkbox"
                                     type="checkbox"
                                     name="filter.p.m.custom.platform"
-                                    value="Sony PlayStation 3"
-                                    id="Filter-filter.p.m.custom.platform-mobile-37"
-                                    
-                                    
-                                  >
-
-                                  <span class="mobile-facets__highlight"></span>
-
-                                  <svg
-                                    width="1.6rem"
-                                    height="1.6rem"
-                                    viewBox="0 0 16 16"
-                                    aria-hidden="true"
-                                    focusable="false"
-                                  >
-                                    <rect width="16" height="16" stroke="currentColor" fill="none" stroke-width="1"></rect>
-                                  </svg>
-
-                                  <svg
-                                    aria-hidden="true"
-                                    class="icon icon-checkmark"
-                                    width="1.1rem"
-                                    height="0.7rem"
-                                    viewBox="0 0 11 7"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                  >
-                                    <path d="M1.5 3.5L2.83333 4.75L4.16667 6L9.5 1" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" />
-                                  </svg>
-
-                                  <span aria-hidden="true">Sony PlayStation 3 (1)</span>
-                                  <span class="visually-hidden">Sony PlayStation 3 (1 products)</span
-                                  >
-                                </label>
-                              </li><li class="mobile-facets__item list-menu__item">
-                                <label
-                                  for="Filter-filter.p.m.custom.platform-mobile-38"
-                                  class="mobile-facets__label"
-                                >
-                                  <input
-                                    class="mobile-facets__checkbox"
-                                    type="checkbox"
-                                    name="filter.p.m.custom.platform"
                                     value="Sony PlayStation 3 PS3"
-                                    id="Filter-filter.p.m.custom.platform-mobile-38"
+                                    id="Filter-filter.p.m.custom.platform-mobile-37"
                                     
                                     
                                   >
@@ -9031,7 +8900,7 @@ Item added to your cart
                                 </label>
                               </li><li class="mobile-facets__item list-menu__item">
                                 <label
-                                  for="Filter-filter.p.m.custom.platform-mobile-39"
+                                  for="Filter-filter.p.m.custom.platform-mobile-38"
                                   class="mobile-facets__label"
                                 >
                                   <input
@@ -9039,6 +8908,49 @@ Item added to your cart
                                     type="checkbox"
                                     name="filter.p.m.custom.platform"
                                     value="Sony PlayStation 4"
+                                    id="Filter-filter.p.m.custom.platform-mobile-38"
+                                    
+                                    
+                                  >
+
+                                  <span class="mobile-facets__highlight"></span>
+
+                                  <svg
+                                    width="1.6rem"
+                                    height="1.6rem"
+                                    viewBox="0 0 16 16"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                  >
+                                    <rect width="16" height="16" stroke="currentColor" fill="none" stroke-width="1"></rect>
+                                  </svg>
+
+                                  <svg
+                                    aria-hidden="true"
+                                    class="icon icon-checkmark"
+                                    width="1.1rem"
+                                    height="0.7rem"
+                                    viewBox="0 0 11 7"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                  >
+                                    <path d="M1.5 3.5L2.83333 4.75L4.16667 6L9.5 1" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" />
+                                  </svg>
+
+                                  <span aria-hidden="true">Sony PlayStation 4 (1)</span>
+                                  <span class="visually-hidden">Sony PlayStation 4 (1 products)</span
+                                  >
+                                </label>
+                              </li><li class="mobile-facets__item list-menu__item">
+                                <label
+                                  for="Filter-filter.p.m.custom.platform-mobile-39"
+                                  class="mobile-facets__label"
+                                >
+                                  <input
+                                    class="mobile-facets__checkbox"
+                                    type="checkbox"
+                                    name="filter.p.m.custom.platform"
+                                    value="Sony PlayStation 4 PS4"
                                     id="Filter-filter.p.m.custom.platform-mobile-39"
                                     
                                     
@@ -9068,8 +8980,8 @@ Item added to your cart
                                     <path d="M1.5 3.5L2.83333 4.75L4.16667 6L9.5 1" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" />
                                   </svg>
 
-                                  <span aria-hidden="true">Sony PlayStation 4 (2)</span>
-                                  <span class="visually-hidden">Sony PlayStation 4 (2 products)</span
+                                  <span aria-hidden="true">Sony PlayStation 4 PS4 (71)</span>
+                                  <span class="visually-hidden">Sony PlayStation 4 PS4 (71 products)</span
                                   >
                                 </label>
                               </li><li class="mobile-facets__item list-menu__item">
@@ -9081,51 +8993,8 @@ Item added to your cart
                                     class="mobile-facets__checkbox"
                                     type="checkbox"
                                     name="filter.p.m.custom.platform"
-                                    value="Sony PlayStation 4 PS4"
-                                    id="Filter-filter.p.m.custom.platform-mobile-40"
-                                    
-                                    
-                                  >
-
-                                  <span class="mobile-facets__highlight"></span>
-
-                                  <svg
-                                    width="1.6rem"
-                                    height="1.6rem"
-                                    viewBox="0 0 16 16"
-                                    aria-hidden="true"
-                                    focusable="false"
-                                  >
-                                    <rect width="16" height="16" stroke="currentColor" fill="none" stroke-width="1"></rect>
-                                  </svg>
-
-                                  <svg
-                                    aria-hidden="true"
-                                    class="icon icon-checkmark"
-                                    width="1.1rem"
-                                    height="0.7rem"
-                                    viewBox="0 0 11 7"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                  >
-                                    <path d="M1.5 3.5L2.83333 4.75L4.16667 6L9.5 1" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" />
-                                  </svg>
-
-                                  <span aria-hidden="true">Sony PlayStation 4 PS4 (72)</span>
-                                  <span class="visually-hidden">Sony PlayStation 4 PS4 (72 products)</span
-                                  >
-                                </label>
-                              </li><li class="mobile-facets__item list-menu__item">
-                                <label
-                                  for="Filter-filter.p.m.custom.platform-mobile-41"
-                                  class="mobile-facets__label"
-                                >
-                                  <input
-                                    class="mobile-facets__checkbox"
-                                    type="checkbox"
-                                    name="filter.p.m.custom.platform"
                                     value="Sony PlayStation 5"
-                                    id="Filter-filter.p.m.custom.platform-mobile-41"
+                                    id="Filter-filter.p.m.custom.platform-mobile-40"
                                     
                                     
                                   >
@@ -9160,7 +9029,7 @@ Item added to your cart
                                 </label>
                               </li><li class="mobile-facets__item list-menu__item">
                                 <label
-                                  for="Filter-filter.p.m.custom.platform-mobile-42"
+                                  for="Filter-filter.p.m.custom.platform-mobile-41"
                                   class="mobile-facets__label"
                                 >
                                   <input
@@ -9168,7 +9037,7 @@ Item added to your cart
                                     type="checkbox"
                                     name="filter.p.m.custom.platform"
                                     value="Sony PlayStation 5 PS5"
-                                    id="Filter-filter.p.m.custom.platform-mobile-42"
+                                    id="Filter-filter.p.m.custom.platform-mobile-41"
                                     
                                     
                                   >
@@ -9203,7 +9072,7 @@ Item added to your cart
                                 </label>
                               </li><li class="mobile-facets__item list-menu__item">
                                 <label
-                                  for="Filter-filter.p.m.custom.platform-mobile-43"
+                                  for="Filter-filter.p.m.custom.platform-mobile-42"
                                   class="mobile-facets__label"
                                 >
                                   <input
@@ -9211,7 +9080,7 @@ Item added to your cart
                                     type="checkbox"
                                     name="filter.p.m.custom.platform"
                                     value="Sony PlayStation Portable PSP"
-                                    id="Filter-filter.p.m.custom.platform-mobile-43"
+                                    id="Filter-filter.p.m.custom.platform-mobile-42"
                                     
                                     
                                   >
@@ -9246,7 +9115,7 @@ Item added to your cart
                                 </label>
                               </li><li class="mobile-facets__item list-menu__item">
                                 <label
-                                  for="Filter-filter.p.m.custom.platform-mobile-44"
+                                  for="Filter-filter.p.m.custom.platform-mobile-43"
                                   class="mobile-facets__label"
                                 >
                                   <input
@@ -9254,7 +9123,7 @@ Item added to your cart
                                     type="checkbox"
                                     name="filter.p.m.custom.platform"
                                     value="Vectrex"
-                                    id="Filter-filter.p.m.custom.platform-mobile-44"
+                                    id="Filter-filter.p.m.custom.platform-mobile-43"
                                     
                                     
                                   >
@@ -9289,7 +9158,7 @@ Item added to your cart
                                 </label>
                               </li><li class="mobile-facets__item list-menu__item">
                                 <label
-                                  for="Filter-filter.p.m.custom.platform-mobile-45"
+                                  for="Filter-filter.p.m.custom.platform-mobile-44"
                                   class="mobile-facets__label"
                                 >
                                   <input
@@ -9297,7 +9166,7 @@ Item added to your cart
                                     type="checkbox"
                                     name="filter.p.m.custom.platform"
                                     value="Xbox 360"
-                                    id="Filter-filter.p.m.custom.platform-mobile-45"
+                                    id="Filter-filter.p.m.custom.platform-mobile-44"
                                     
                                     
                                   >
@@ -9332,7 +9201,7 @@ Item added to your cart
                                 </label>
                               </li><li class="mobile-facets__item list-menu__item">
                                 <label
-                                  for="Filter-filter.p.m.custom.platform-mobile-46"
+                                  for="Filter-filter.p.m.custom.platform-mobile-45"
                                   class="mobile-facets__label"
                                 >
                                   <input
@@ -9340,7 +9209,7 @@ Item added to your cart
                                     type="checkbox"
                                     name="filter.p.m.custom.platform"
                                     value="Xbox One"
-                                    id="Filter-filter.p.m.custom.platform-mobile-46"
+                                    id="Filter-filter.p.m.custom.platform-mobile-45"
                                     
                                     
                                   >
@@ -9375,7 +9244,7 @@ Item added to your cart
                                 </label>
                               </li><li class="mobile-facets__item list-menu__item">
                                 <label
-                                  for="Filter-filter.p.m.custom.platform-mobile-47"
+                                  for="Filter-filter.p.m.custom.platform-mobile-46"
                                   class="mobile-facets__label"
                                 >
                                   <input
@@ -9383,7 +9252,7 @@ Item added to your cart
                                     type="checkbox"
                                     name="filter.p.m.custom.platform"
                                     value="Xbox One / Xbox Series X/S / PC"
-                                    id="Filter-filter.p.m.custom.platform-mobile-47"
+                                    id="Filter-filter.p.m.custom.platform-mobile-46"
                                     
                                     
                                   >
@@ -9418,7 +9287,7 @@ Item added to your cart
                                 </label>
                               </li><li class="mobile-facets__item list-menu__item">
                                 <label
-                                  for="Filter-filter.p.m.custom.platform-mobile-48"
+                                  for="Filter-filter.p.m.custom.platform-mobile-47"
                                   class="mobile-facets__label"
                                 >
                                   <input
@@ -9426,7 +9295,7 @@ Item added to your cart
                                     type="checkbox"
                                     name="filter.p.m.custom.platform"
                                     value="Xbox One, Xbox Series X/S, and Windows 10"
-                                    id="Filter-filter.p.m.custom.platform-mobile-48"
+                                    id="Filter-filter.p.m.custom.platform-mobile-47"
                                     
                                     
                                   >
@@ -9585,7 +9454,7 @@ Item added to your cart
     role="status"
   >
     <h2 class="product-count__text text-body">
-      <span id="ProductCount">634 products
+      <span id="ProductCount">618 products
 </span>
     </h2>
     <div class="loading-overlay__spinner">
@@ -9649,9 +9518,9 @@ Item added to your cart
             <div class="media media--transparent media--hover-effect">
               
               <img
-                srcset="//bothellwa.paymore.com/cdn/shop/files/1778961093073sxvqmeo.jpg?v=1778961407&width=165 165w,//bothellwa.paymore.com/cdn/shop/files/1778961093073sxvqmeo.jpg?v=1778961407&width=360 360w,//bothellwa.paymore.com/cdn/shop/files/1778961093073sxvqmeo.jpg?v=1778961407&width=533 533w,//bothellwa.paymore.com/cdn/shop/files/1778961093073sxvqmeo.jpg?v=1778961407&width=720 720w,//bothellwa.paymore.com/cdn/shop/files/1778961093073sxvqmeo.jpg?v=1778961407&width=940 940w,//bothellwa.paymore.com/cdn/shop/files/1778961093073sxvqmeo.jpg?v=1778961407&width=1066 1066w,//bothellwa.paymore.com/cdn/shop/files/1778961093073sxvqmeo.jpg?v=1778961407 1500w
+                srcset="//bothellwa.paymore.com/cdn/shop/files/1779134003049b3w6pvq.jpg?v=1779134037&width=165 165w,//bothellwa.paymore.com/cdn/shop/files/1779134003049b3w6pvq.jpg?v=1779134037&width=360 360w,//bothellwa.paymore.com/cdn/shop/files/1779134003049b3w6pvq.jpg?v=1779134037&width=533 533w,//bothellwa.paymore.com/cdn/shop/files/1779134003049b3w6pvq.jpg?v=1779134037&width=720 720w,//bothellwa.paymore.com/cdn/shop/files/1779134003049b3w6pvq.jpg?v=1779134037&width=940 940w,//bothellwa.paymore.com/cdn/shop/files/1779134003049b3w6pvq.jpg?v=1779134037&width=1066 1066w,//bothellwa.paymore.com/cdn/shop/files/1779134003049b3w6pvq.jpg?v=1779134037 1500w
                 "
-                src="//bothellwa.paymore.com/cdn/shop/files/1778961093073sxvqmeo.jpg?v=1778961407&width=533"
+                src="//bothellwa.paymore.com/cdn/shop/files/1779134003049b3w6pvq.jpg?v=1779134037&width=533"
                 sizes="(min-width: 1600px) 367px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
                 alt="Product Image"
                 class="motion-reduce"
@@ -9668,12 +9537,12 @@ Item added to your cart
               
             >
               <a
-                href="/products/sony-playstation-3-super-slim-ps3-500gb-white-console-gaming-system-cech-4001c-1778961399876-ddjmd5w50"
-                id="StandardCardNoMediaLink-template--27264681672885__product-grid-10438169067701"
+                href="/products/dell-xps-p151g001-13-4-i7-1280p-1-8ghz-32gb-ram-512gb-ssd-1779134033704-s1u2abl7i"
+                id="StandardCardNoMediaLink-template--27264681672885__product-grid-10441629499573"
                 class="full-unstyled-link"
-                aria-labelledby="StandardCardNoMediaLink-template--27264681672885__product-grid-10438169067701 NoMediaStandardBadge-template--27264681672885__product-grid-10438169067701"
+                aria-labelledby="StandardCardNoMediaLink-template--27264681672885__product-grid-10441629499573 NoMediaStandardBadge-template--27264681672885__product-grid-10441629499573"
               >
-                Sony PlayStation 3 Super Slim PS3 500GB White Console Gaming System CECH-4001C
+                Dell XPS P151G001 13.4&quot; i7-1280P 1.8GHz 32GB RAM 512GB SSD
               </a>
             </h3>
           </div>
@@ -9685,16 +9554,16 @@ Item added to your cart
           <h3
             class="card__heading h5"
             
-              id="title-template--27264681672885__product-grid-10438169067701"
+              id="title-template--27264681672885__product-grid-10441629499573"
             
           >
             <a
-              href="/products/sony-playstation-3-super-slim-ps3-500gb-white-console-gaming-system-cech-4001c-1778961399876-ddjmd5w50"
-              id="CardLink-template--27264681672885__product-grid-10438169067701"
+              href="/products/dell-xps-p151g001-13-4-i7-1280p-1-8ghz-32gb-ram-512gb-ssd-1779134033704-s1u2abl7i"
+              id="CardLink-template--27264681672885__product-grid-10441629499573"
               class="full-unstyled-link"
-              aria-labelledby="CardLink-template--27264681672885__product-grid-10438169067701 Badge-template--27264681672885__product-grid-10438169067701"
+              aria-labelledby="CardLink-template--27264681672885__product-grid-10441629499573 Badge-template--27264681672885__product-grid-10441629499573"
             >
-              Sony PlayStation 3 Super Slim PS3 500GB White Console Gaming System CECH-4001C
+              Dell XPS P151G001 13.4&quot; i7-1280P 1.8GHz 32GB RAM 512GB SSD
             </a>
           </h3>
           <div class="card-information"><span class="visually-hidden">Vendor:</span>
@@ -9706,7 +9575,7 @@ Item added to your cart
   <div class="price__container"><div class="price__regular">
       <span class="visually-hidden visually-hidden--inline">Regular price</span>
       <span class="price-item price-item--regular">
-        $109.99 USD
+        $629.99 USD
       </span>
     </div>
     <div class="price__sale">
@@ -9719,7 +9588,7 @@ Item added to your cart
           </s>
         </span><span class="visually-hidden visually-hidden--inline">Sale price</span>
       <span class="price-item price-item--sale price-item--last">
-        $109.99 USD
+        $629.99 USD
       </span>
     </div>
     <small class="unit-price caption hidden">
@@ -9735,19 +9604,19 @@ Item added to your cart
   </div></div>
 
           </div>
-        </div><div class="quick-add no-js-hidden"><product-form><form method="post" action="/cart/add" id="quick-add-template--27264681672885__product-grid10438169067701" accept-charset="UTF-8" class="form" enctype="multipart/form-data" novalidate="novalidate" data-type="add-to-cart-form"><input type="hidden" name="form_type" value="product" /><input type="hidden" name="utf8" value="✓" /><input
+        </div><div class="quick-add no-js-hidden"><product-form><form method="post" action="/cart/add" id="quick-add-template--27264681672885__product-grid10441629499573" accept-charset="UTF-8" class="form" enctype="multipart/form-data" novalidate="novalidate" data-type="add-to-cart-form"><input type="hidden" name="form_type" value="product" /><input type="hidden" name="utf8" value="✓" /><input
                     type="hidden"
                     name="id"
-                    value="52515969728693"
+                    value="52536097505461"
                     disabled
                   >
                   <button
-                    id="quick-add-template--27264681672885__product-grid10438169067701-submit"
+                    id="quick-add-template--27264681672885__product-grid10441629499573-submit"
                     type="submit"
                     name="add"
                     class="quick-add__submit button button--full-width button--secondary"
                     aria-haspopup="dialog"
-                    aria-labelledby="quick-add-template--27264681672885__product-grid10438169067701-submit title-template--27264681672885__product-grid-10438169067701"
+                    aria-labelledby="quick-add-template--27264681672885__product-grid10441629499573-submit title-template--27264681672885__product-grid-10441629499573"
                     aria-live="polite"
                     data-sold-out-message="true"
                     
@@ -9767,7 +9636,7 @@ Item added to your cart
                         <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
                       </svg>
                     </div>
-                  </button><input type="hidden" name="product-id" value="10438169067701" /><input type="hidden" name="section-id" value="template--27264681672885__product-grid" /></form></product-form></div><div class="card__badge bottom left"></div>
+                  </button><input type="hidden" name="product-id" value="10441629499573" /><input type="hidden" name="section-id" value="template--27264681672885__product-grid" /></form></product-form></div><div class="card__badge bottom left"></div>
       </div>
     </div>
   </div>
@@ -9803,9 +9672,9 @@ Item added to your cart
             <div class="media media--transparent media--hover-effect">
               
               <img
-                srcset="//bothellwa.paymore.com/cdn/shop/files/17789610512782rniip2.jpg?v=1778961121&width=165 165w,//bothellwa.paymore.com/cdn/shop/files/17789610512782rniip2.jpg?v=1778961121&width=360 360w,//bothellwa.paymore.com/cdn/shop/files/17789610512782rniip2.jpg?v=1778961121&width=533 533w,//bothellwa.paymore.com/cdn/shop/files/17789610512782rniip2.jpg?v=1778961121&width=720 720w,//bothellwa.paymore.com/cdn/shop/files/17789610512782rniip2.jpg?v=1778961121&width=940 940w,//bothellwa.paymore.com/cdn/shop/files/17789610512782rniip2.jpg?v=1778961121&width=1066 1066w,//bothellwa.paymore.com/cdn/shop/files/17789610512782rniip2.jpg?v=1778961121 1500w
+                srcset="//bothellwa.paymore.com/cdn/shop/files/1778968722148km4eyd6.jpg?v=1778968784&width=165 165w,//bothellwa.paymore.com/cdn/shop/files/1778968722148km4eyd6.jpg?v=1778968784&width=360 360w,//bothellwa.paymore.com/cdn/shop/files/1778968722148km4eyd6.jpg?v=1778968784&width=533 533w,//bothellwa.paymore.com/cdn/shop/files/1778968722148km4eyd6.jpg?v=1778968784&width=720 720w,//bothellwa.paymore.com/cdn/shop/files/1778968722148km4eyd6.jpg?v=1778968784&width=940 940w,//bothellwa.paymore.com/cdn/shop/files/1778968722148km4eyd6.jpg?v=1778968784&width=1066 1066w,//bothellwa.paymore.com/cdn/shop/files/1778968722148km4eyd6.jpg?v=1778968784 1500w
                 "
-                src="//bothellwa.paymore.com/cdn/shop/files/17789610512782rniip2.jpg?v=1778961121&width=533"
+                src="//bothellwa.paymore.com/cdn/shop/files/1778968722148km4eyd6.jpg?v=1778968784&width=533"
                 sizes="(min-width: 1600px) 367px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
                 alt="Product Image"
                 class="motion-reduce"
@@ -9822,12 +9691,12 @@ Item added to your cart
               
             >
               <a
-                href="/products/sony-playstation-4-pro-ps4-1tb-star-wars-edition-console-gaming-system-cuh-7115b-1778961115443-ug92g3z0l"
-                id="StandardCardNoMediaLink-template--27264681672885__product-grid-10438168805557"
+                href="/products/nintendo-switch-v2-console-gaming-system-hac-001-01-black-1778968781534-xuixdhwy6"
+                id="StandardCardNoMediaLink-template--27264681672885__product-grid-10438187581621"
                 class="full-unstyled-link"
-                aria-labelledby="StandardCardNoMediaLink-template--27264681672885__product-grid-10438168805557 NoMediaStandardBadge-template--27264681672885__product-grid-10438168805557"
+                aria-labelledby="StandardCardNoMediaLink-template--27264681672885__product-grid-10438187581621 NoMediaStandardBadge-template--27264681672885__product-grid-10438187581621"
               >
-                Sony PlayStation 4 Pro PS4 1TB Star Wars Edition Console Gaming System CUH-7115B
+                Nintendo Switch v2 Console Gaming System HAC-001(-01)  Black
               </a>
             </h3>
           </div>
@@ -9839,16 +9708,16 @@ Item added to your cart
           <h3
             class="card__heading h5"
             
-              id="title-template--27264681672885__product-grid-10438168805557"
+              id="title-template--27264681672885__product-grid-10438187581621"
             
           >
             <a
-              href="/products/sony-playstation-4-pro-ps4-1tb-star-wars-edition-console-gaming-system-cuh-7115b-1778961115443-ug92g3z0l"
-              id="CardLink-template--27264681672885__product-grid-10438168805557"
+              href="/products/nintendo-switch-v2-console-gaming-system-hac-001-01-black-1778968781534-xuixdhwy6"
+              id="CardLink-template--27264681672885__product-grid-10438187581621"
               class="full-unstyled-link"
-              aria-labelledby="CardLink-template--27264681672885__product-grid-10438168805557 Badge-template--27264681672885__product-grid-10438168805557"
+              aria-labelledby="CardLink-template--27264681672885__product-grid-10438187581621 Badge-template--27264681672885__product-grid-10438187581621"
             >
-              Sony PlayStation 4 Pro PS4 1TB Star Wars Edition Console Gaming System CUH-7115B
+              Nintendo Switch v2 Console Gaming System HAC-001(-01)  Black
             </a>
           </h3>
           <div class="card-information"><span class="visually-hidden">Vendor:</span>
@@ -9860,7 +9729,7 @@ Item added to your cart
   <div class="price__container"><div class="price__regular">
       <span class="visually-hidden visually-hidden--inline">Regular price</span>
       <span class="price-item price-item--regular">
-        $134.99 USD
+        $149.99 USD
       </span>
     </div>
     <div class="price__sale">
@@ -9873,7 +9742,7 @@ Item added to your cart
           </s>
         </span><span class="visually-hidden visually-hidden--inline">Sale price</span>
       <span class="price-item price-item--sale price-item--last">
-        $134.99 USD
+        $149.99 USD
       </span>
     </div>
     <small class="unit-price caption hidden">
@@ -9889,19 +9758,19 @@ Item added to your cart
   </div></div>
 
           </div>
-        </div><div class="quick-add no-js-hidden"><product-form><form method="post" action="/cart/add" id="quick-add-template--27264681672885__product-grid10438168805557" accept-charset="UTF-8" class="form" enctype="multipart/form-data" novalidate="novalidate" data-type="add-to-cart-form"><input type="hidden" name="form_type" value="product" /><input type="hidden" name="utf8" value="✓" /><input
+        </div><div class="quick-add no-js-hidden"><product-form><form method="post" action="/cart/add" id="quick-add-template--27264681672885__product-grid10438187581621" accept-charset="UTF-8" class="form" enctype="multipart/form-data" novalidate="novalidate" data-type="add-to-cart-form"><input type="hidden" name="form_type" value="product" /><input type="hidden" name="utf8" value="✓" /><input
                     type="hidden"
                     name="id"
-                    value="52515969335477"
+                    value="52516104503477"
                     disabled
                   >
                   <button
-                    id="quick-add-template--27264681672885__product-grid10438168805557-submit"
+                    id="quick-add-template--27264681672885__product-grid10438187581621-submit"
                     type="submit"
                     name="add"
                     class="quick-add__submit button button--full-width button--secondary"
                     aria-haspopup="dialog"
-                    aria-labelledby="quick-add-template--27264681672885__product-grid10438168805557-submit title-template--27264681672885__product-grid-10438168805557"
+                    aria-labelledby="quick-add-template--27264681672885__product-grid10438187581621-submit title-template--27264681672885__product-grid-10438187581621"
                     aria-live="polite"
                     data-sold-out-message="true"
                     
@@ -9921,7 +9790,7 @@ Item added to your cart
                         <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
                       </svg>
                     </div>
-                  </button><input type="hidden" name="product-id" value="10438168805557" /><input type="hidden" name="section-id" value="template--27264681672885__product-grid" /></form></product-form></div><div class="card__badge bottom left"></div>
+                  </button><input type="hidden" name="product-id" value="10438187581621" /><input type="hidden" name="section-id" value="template--27264681672885__product-grid" /></form></product-form></div><div class="card__badge bottom left"></div>
       </div>
     </div>
   </div>
@@ -9931,6 +9800,318 @@ Item added to your cart
                   
                     data-cascade
                     style="--animation-order: 3;"
+                  
+                >
+                  
+
+<link href="//bothellwa.paymore.com/cdn/shop/t/2/assets/component-rating.css?v=157771854592137137841775216955" rel="stylesheet" type="text/css" media="all" />
+<div class="card-wrapper product-card-wrapper underline-links-hover">
+    <div
+      class="
+        card
+        card--standard
+         card--media
+        
+        
+        
+        
+        
+      "
+      style="--ratio-percent: 100%;"
+    >
+      <div
+        class="card__inner color-scheme-ae4d632e-bb81-4298-8953-f7f24b098b87 gradient ratio"
+        style="--ratio-percent: 100%;"
+      ><div class="card__media">
+            <div class="media media--transparent media--hover-effect">
+              
+              <img
+                srcset="//bothellwa.paymore.com/cdn/shop/files/1778968661658ilufeoq.jpg?v=1778968765&width=165 165w,//bothellwa.paymore.com/cdn/shop/files/1778968661658ilufeoq.jpg?v=1778968765&width=360 360w,//bothellwa.paymore.com/cdn/shop/files/1778968661658ilufeoq.jpg?v=1778968765&width=533 533w,//bothellwa.paymore.com/cdn/shop/files/1778968661658ilufeoq.jpg?v=1778968765&width=720 720w,//bothellwa.paymore.com/cdn/shop/files/1778968661658ilufeoq.jpg?v=1778968765&width=940 940w,//bothellwa.paymore.com/cdn/shop/files/1778968661658ilufeoq.jpg?v=1778968765&width=1066 1066w,//bothellwa.paymore.com/cdn/shop/files/1778968661658ilufeoq.jpg?v=1778968765 1500w
+                "
+                src="//bothellwa.paymore.com/cdn/shop/files/1778968661658ilufeoq.jpg?v=1778968765&width=533"
+                sizes="(min-width: 1600px) 367px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
+                alt="Product Image"
+                class="motion-reduce"
+                
+                  loading="lazy"
+                
+                width="1500"
+                height="1500"
+              >
+              
+</div>
+          </div><div class="card__content">
+          <div class="card__information">
+            <h3
+              class="card__heading"
+              
+            >
+              <a
+                href="/products/sony-playstation-5-digital-ps5-825gb-black-console-gaming-system-cfi-1215b-1778968762031-nkxtnblu8"
+                id="StandardCardNoMediaLink-template--27264681672885__product-grid-10438187548853"
+                class="full-unstyled-link"
+                aria-labelledby="StandardCardNoMediaLink-template--27264681672885__product-grid-10438187548853 NoMediaStandardBadge-template--27264681672885__product-grid-10438187548853"
+              >
+                Sony PlayStation 5 Digital PS5 825GB Black Console Gaming System CFI-1215B
+              </a>
+            </h3>
+          </div>
+          <div class="card__badge bottom left"></div>
+        </div>
+      </div>
+      <div class="card__content">
+        <div class="card__information">
+          <h3
+            class="card__heading h5"
+            
+              id="title-template--27264681672885__product-grid-10438187548853"
+            
+          >
+            <a
+              href="/products/sony-playstation-5-digital-ps5-825gb-black-console-gaming-system-cfi-1215b-1778968762031-nkxtnblu8"
+              id="CardLink-template--27264681672885__product-grid-10438187548853"
+              class="full-unstyled-link"
+              aria-labelledby="CardLink-template--27264681672885__product-grid-10438187548853 Badge-template--27264681672885__product-grid-10438187548853"
+            >
+              Sony PlayStation 5 Digital PS5 825GB Black Console Gaming System CFI-1215B
+            </a>
+          </h3>
+          <div class="card-information"><span class="visually-hidden">Vendor:</span>
+              <div class="caption-with-letter-spacing light">PayMore Bothell</div><span class="caption-large light"></span>
+<div
+  class="
+    price "
+>
+  <div class="price__container"><div class="price__regular">
+      <span class="visually-hidden visually-hidden--inline">Regular price</span>
+      <span class="price-item price-item--regular">
+        $374.99 USD
+      </span>
+    </div>
+    <div class="price__sale">
+        <span class="visually-hidden visually-hidden--inline">Regular price</span>
+        <span>
+          <s class="price-item price-item--regular">
+            
+              
+            
+          </s>
+        </span><span class="visually-hidden visually-hidden--inline">Sale price</span>
+      <span class="price-item price-item--sale price-item--last">
+        $374.99 USD
+      </span>
+    </div>
+    <small class="unit-price caption hidden">
+      <span class="visually-hidden">Unit price</span>
+      <span class="price-item price-item--last">
+        <span></span>
+        <span aria-hidden="true">/</span>
+        <span class="visually-hidden">&nbsp;per&nbsp;</span>
+        <span>
+        </span>
+      </span>
+    </small>
+  </div></div>
+
+          </div>
+        </div><div class="quick-add no-js-hidden"><product-form><form method="post" action="/cart/add" id="quick-add-template--27264681672885__product-grid10438187548853" accept-charset="UTF-8" class="form" enctype="multipart/form-data" novalidate="novalidate" data-type="add-to-cart-form"><input type="hidden" name="form_type" value="product" /><input type="hidden" name="utf8" value="✓" /><input
+                    type="hidden"
+                    name="id"
+                    value="52516104437941"
+                    disabled
+                  >
+                  <button
+                    id="quick-add-template--27264681672885__product-grid10438187548853-submit"
+                    type="submit"
+                    name="add"
+                    class="quick-add__submit button button--full-width button--secondary"
+                    aria-haspopup="dialog"
+                    aria-labelledby="quick-add-template--27264681672885__product-grid10438187548853-submit title-template--27264681672885__product-grid-10438187548853"
+                    aria-live="polite"
+                    data-sold-out-message="true"
+                    
+                  >
+                    <span>Add to cart
+</span>
+                    <span class="sold-out-message hidden">
+                      Sold out
+                    </span><div class="loading-overlay__spinner hidden">
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        class="spinner"
+                        viewBox="0 0 66 66"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                      </svg>
+                    </div>
+                  </button><input type="hidden" name="product-id" value="10438187548853" /><input type="hidden" name="section-id" value="template--27264681672885__product-grid" /></form></product-form></div><div class="card__badge bottom left"></div>
+      </div>
+    </div>
+  </div>
+                </li>
+<li
+                  class="grid__item scroll-trigger animate--slide-in"
+                  
+                    data-cascade
+                    style="--animation-order: 4;"
+                  
+                >
+                  
+
+<link href="//bothellwa.paymore.com/cdn/shop/t/2/assets/component-rating.css?v=157771854592137137841775216955" rel="stylesheet" type="text/css" media="all" />
+<div class="card-wrapper product-card-wrapper underline-links-hover">
+    <div
+      class="
+        card
+        card--standard
+         card--media
+        
+        
+        
+        
+        
+      "
+      style="--ratio-percent: 100%;"
+    >
+      <div
+        class="card__inner color-scheme-ae4d632e-bb81-4298-8953-f7f24b098b87 gradient ratio"
+        style="--ratio-percent: 100%;"
+      ><div class="card__media">
+            <div class="media media--transparent media--hover-effect">
+              
+              <img
+                srcset="//bothellwa.paymore.com/cdn/shop/files/1778968616703ajzi0jf.jpg?v=1778968747&width=165 165w,//bothellwa.paymore.com/cdn/shop/files/1778968616703ajzi0jf.jpg?v=1778968747&width=360 360w,//bothellwa.paymore.com/cdn/shop/files/1778968616703ajzi0jf.jpg?v=1778968747&width=533 533w,//bothellwa.paymore.com/cdn/shop/files/1778968616703ajzi0jf.jpg?v=1778968747&width=720 720w,//bothellwa.paymore.com/cdn/shop/files/1778968616703ajzi0jf.jpg?v=1778968747&width=940 940w,//bothellwa.paymore.com/cdn/shop/files/1778968616703ajzi0jf.jpg?v=1778968747&width=1066 1066w,//bothellwa.paymore.com/cdn/shop/files/1778968616703ajzi0jf.jpg?v=1778968747 1500w
+                "
+                src="//bothellwa.paymore.com/cdn/shop/files/1778968616703ajzi0jf.jpg?v=1778968747&width=533"
+                sizes="(min-width: 1600px) 367px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
+                alt="Product Image"
+                class="motion-reduce"
+                
+                  loading="lazy"
+                
+                width="1500"
+                height="1500"
+              >
+              
+</div>
+          </div><div class="card__content">
+          <div class="card__information">
+            <h3
+              class="card__heading"
+              
+            >
+              <a
+                href="/products/bowers-and-wilkins-formation-bass-subwoofer-black-fp40258-1778968744844-ou063nh3a"
+                id="StandardCardNoMediaLink-template--27264681672885__product-grid-10438187450549"
+                class="full-unstyled-link"
+                aria-labelledby="StandardCardNoMediaLink-template--27264681672885__product-grid-10438187450549 NoMediaStandardBadge-template--27264681672885__product-grid-10438187450549"
+              >
+                Bowers and Wilkins Formation Bass Subwoofer Black FP40258
+              </a>
+            </h3>
+          </div>
+          <div class="card__badge bottom left"></div>
+        </div>
+      </div>
+      <div class="card__content">
+        <div class="card__information">
+          <h3
+            class="card__heading h5"
+            
+              id="title-template--27264681672885__product-grid-10438187450549"
+            
+          >
+            <a
+              href="/products/bowers-and-wilkins-formation-bass-subwoofer-black-fp40258-1778968744844-ou063nh3a"
+              id="CardLink-template--27264681672885__product-grid-10438187450549"
+              class="full-unstyled-link"
+              aria-labelledby="CardLink-template--27264681672885__product-grid-10438187450549 Badge-template--27264681672885__product-grid-10438187450549"
+            >
+              Bowers and Wilkins Formation Bass Subwoofer Black FP40258
+            </a>
+          </h3>
+          <div class="card-information"><span class="visually-hidden">Vendor:</span>
+              <div class="caption-with-letter-spacing light">PayMore Bothell</div><span class="caption-large light"></span>
+<div
+  class="
+    price "
+>
+  <div class="price__container"><div class="price__regular">
+      <span class="visually-hidden visually-hidden--inline">Regular price</span>
+      <span class="price-item price-item--regular">
+        $349.99 USD
+      </span>
+    </div>
+    <div class="price__sale">
+        <span class="visually-hidden visually-hidden--inline">Regular price</span>
+        <span>
+          <s class="price-item price-item--regular">
+            
+              
+            
+          </s>
+        </span><span class="visually-hidden visually-hidden--inline">Sale price</span>
+      <span class="price-item price-item--sale price-item--last">
+        $349.99 USD
+      </span>
+    </div>
+    <small class="unit-price caption hidden">
+      <span class="visually-hidden">Unit price</span>
+      <span class="price-item price-item--last">
+        <span></span>
+        <span aria-hidden="true">/</span>
+        <span class="visually-hidden">&nbsp;per&nbsp;</span>
+        <span>
+        </span>
+      </span>
+    </small>
+  </div></div>
+
+          </div>
+        </div><div class="quick-add no-js-hidden"><product-form><form method="post" action="/cart/add" id="quick-add-template--27264681672885__product-grid10438187450549" accept-charset="UTF-8" class="form" enctype="multipart/form-data" novalidate="novalidate" data-type="add-to-cart-form"><input type="hidden" name="form_type" value="product" /><input type="hidden" name="utf8" value="✓" /><input
+                    type="hidden"
+                    name="id"
+                    value="52516104339637"
+                    disabled
+                  >
+                  <button
+                    id="quick-add-template--27264681672885__product-grid10438187450549-submit"
+                    type="submit"
+                    name="add"
+                    class="quick-add__submit button button--full-width button--secondary"
+                    aria-haspopup="dialog"
+                    aria-labelledby="quick-add-template--27264681672885__product-grid10438187450549-submit title-template--27264681672885__product-grid-10438187450549"
+                    aria-live="polite"
+                    data-sold-out-message="true"
+                    
+                  >
+                    <span>Add to cart
+</span>
+                    <span class="sold-out-message hidden">
+                      Sold out
+                    </span><div class="loading-overlay__spinner hidden">
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        class="spinner"
+                        viewBox="0 0 66 66"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                      </svg>
+                    </div>
+                  </button><input type="hidden" name="product-id" value="10438187450549" /><input type="hidden" name="section-id" value="template--27264681672885__product-grid" /></form></product-form></div><div class="card__badge bottom left"></div>
+      </div>
+    </div>
+  </div>
+                </li>
+<li
+                  class="grid__item scroll-trigger animate--slide-in"
+                  
+                    data-cascade
+                    style="--animation-order: 5;"
                   
                 >
                   
@@ -10086,7 +10267,7 @@ Item added to your cart
                   class="grid__item scroll-trigger animate--slide-in"
                   
                     data-cascade
-                    style="--animation-order: 4;"
+                    style="--animation-order: 6;"
                   
                 >
                   
@@ -10242,163 +10423,7 @@ Item added to your cart
                   class="grid__item scroll-trigger animate--slide-in"
                   
                     data-cascade
-                    style="--animation-order: 5;"
-                  
-                >
-                  
-
-<link href="//bothellwa.paymore.com/cdn/shop/t/2/assets/component-rating.css?v=157771854592137137841775216955" rel="stylesheet" type="text/css" media="all" />
-<div class="card-wrapper product-card-wrapper underline-links-hover">
-    <div
-      class="
-        card
-        card--standard
-         card--media
-        
-        
-        
-        
-        
-      "
-      style="--ratio-percent: 100%;"
-    >
-      <div
-        class="card__inner color-scheme-ae4d632e-bb81-4298-8953-f7f24b098b87 gradient ratio"
-        style="--ratio-percent: 100%;"
-      ><div class="card__media">
-            <div class="media media--transparent media--hover-effect">
-              
-              <img
-                srcset="//bothellwa.paymore.com/cdn/shop/files/17788894306485xm5x2a.jpg?v=1778889478&width=165 165w,//bothellwa.paymore.com/cdn/shop/files/17788894306485xm5x2a.jpg?v=1778889478&width=360 360w,//bothellwa.paymore.com/cdn/shop/files/17788894306485xm5x2a.jpg?v=1778889478&width=533 533w,//bothellwa.paymore.com/cdn/shop/files/17788894306485xm5x2a.jpg?v=1778889478&width=720 720w,//bothellwa.paymore.com/cdn/shop/files/17788894306485xm5x2a.jpg?v=1778889478&width=940 940w,//bothellwa.paymore.com/cdn/shop/files/17788894306485xm5x2a.jpg?v=1778889478&width=1066 1066w,//bothellwa.paymore.com/cdn/shop/files/17788894306485xm5x2a.jpg?v=1778889478 1500w
-                "
-                src="//bothellwa.paymore.com/cdn/shop/files/17788894306485xm5x2a.jpg?v=1778889478&width=533"
-                sizes="(min-width: 1600px) 367px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-                alt="Product Image"
-                class="motion-reduce"
-                
-                  loading="lazy"
-                
-                width="1500"
-                height="1500"
-              >
-              
-</div>
-          </div><div class="card__content">
-          <div class="card__information">
-            <h3
-              class="card__heading"
-              
-            >
-              <a
-                href="/products/sony-playstation-4-ps4-dualshock-4-wireless-controller-clear-cuh-zct2u-1778889476020-9gehoa7os"
-                id="StandardCardNoMediaLink-template--27264681672885__product-grid-10437885493429"
-                class="full-unstyled-link"
-                aria-labelledby="StandardCardNoMediaLink-template--27264681672885__product-grid-10437885493429 NoMediaStandardBadge-template--27264681672885__product-grid-10437885493429"
-              >
-                Sony PlayStation 4 PS4 DualShock 4 Wireless Controller Clear CUH-ZCT2U
-              </a>
-            </h3>
-          </div>
-          <div class="card__badge bottom left"></div>
-        </div>
-      </div>
-      <div class="card__content">
-        <div class="card__information">
-          <h3
-            class="card__heading h5"
-            
-              id="title-template--27264681672885__product-grid-10437885493429"
-            
-          >
-            <a
-              href="/products/sony-playstation-4-ps4-dualshock-4-wireless-controller-clear-cuh-zct2u-1778889476020-9gehoa7os"
-              id="CardLink-template--27264681672885__product-grid-10437885493429"
-              class="full-unstyled-link"
-              aria-labelledby="CardLink-template--27264681672885__product-grid-10437885493429 Badge-template--27264681672885__product-grid-10437885493429"
-            >
-              Sony PlayStation 4 PS4 DualShock 4 Wireless Controller Clear CUH-ZCT2U
-            </a>
-          </h3>
-          <div class="card-information"><span class="visually-hidden">Vendor:</span>
-              <div class="caption-with-letter-spacing light">PayMore Bothell</div><span class="caption-large light"></span>
-<div
-  class="
-    price "
->
-  <div class="price__container"><div class="price__regular">
-      <span class="visually-hidden visually-hidden--inline">Regular price</span>
-      <span class="price-item price-item--regular">
-        $29.99 USD
-      </span>
-    </div>
-    <div class="price__sale">
-        <span class="visually-hidden visually-hidden--inline">Regular price</span>
-        <span>
-          <s class="price-item price-item--regular">
-            
-              
-            
-          </s>
-        </span><span class="visually-hidden visually-hidden--inline">Sale price</span>
-      <span class="price-item price-item--sale price-item--last">
-        $29.99 USD
-      </span>
-    </div>
-    <small class="unit-price caption hidden">
-      <span class="visually-hidden">Unit price</span>
-      <span class="price-item price-item--last">
-        <span></span>
-        <span aria-hidden="true">/</span>
-        <span class="visually-hidden">&nbsp;per&nbsp;</span>
-        <span>
-        </span>
-      </span>
-    </small>
-  </div></div>
-
-          </div>
-        </div><div class="quick-add no-js-hidden"><product-form><form method="post" action="/cart/add" id="quick-add-template--27264681672885__product-grid10437885493429" accept-charset="UTF-8" class="form" enctype="multipart/form-data" novalidate="novalidate" data-type="add-to-cart-form"><input type="hidden" name="form_type" value="product" /><input type="hidden" name="utf8" value="✓" /><input
-                    type="hidden"
-                    name="id"
-                    value="52514925084853"
-                    disabled
-                  >
-                  <button
-                    id="quick-add-template--27264681672885__product-grid10437885493429-submit"
-                    type="submit"
-                    name="add"
-                    class="quick-add__submit button button--full-width button--secondary"
-                    aria-haspopup="dialog"
-                    aria-labelledby="quick-add-template--27264681672885__product-grid10437885493429-submit title-template--27264681672885__product-grid-10437885493429"
-                    aria-live="polite"
-                    data-sold-out-message="true"
-                    
-                  >
-                    <span>Add to cart
-</span>
-                    <span class="sold-out-message hidden">
-                      Sold out
-                    </span><div class="loading-overlay__spinner hidden">
-                      <svg
-                        aria-hidden="true"
-                        focusable="false"
-                        class="spinner"
-                        viewBox="0 0 66 66"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
-                      </svg>
-                    </div>
-                  </button><input type="hidden" name="product-id" value="10437885493429" /><input type="hidden" name="section-id" value="template--27264681672885__product-grid" /></form></product-form></div><div class="card__badge bottom left"></div>
-      </div>
-    </div>
-  </div>
-                </li>
-<li
-                  class="grid__item scroll-trigger animate--slide-in"
-                  
-                    data-cascade
-                    style="--animation-order: 6;"
+                    style="--animation-order: 7;"
                   
                 >
                   
@@ -10554,7 +10579,7 @@ Item added to your cart
                   class="grid__item scroll-trigger animate--slide-in"
                   
                     data-cascade
-                    style="--animation-order: 7;"
+                    style="--animation-order: 8;"
                   
                 >
                   
@@ -10710,7 +10735,7 @@ Item added to your cart
                   class="grid__item scroll-trigger animate--slide-in"
                   
                     data-cascade
-                    style="--animation-order: 8;"
+                    style="--animation-order: 9;"
                   
                 >
                   
@@ -10866,7 +10891,7 @@ Item added to your cart
                   class="grid__item scroll-trigger animate--slide-in"
                   
                     data-cascade
-                    style="--animation-order: 9;"
+                    style="--animation-order: 10;"
                   
                 >
                   
@@ -11022,7 +11047,7 @@ Item added to your cart
                   class="grid__item scroll-trigger animate--slide-in"
                   
                     data-cascade
-                    style="--animation-order: 10;"
+                    style="--animation-order: 11;"
                   
                 >
                   
@@ -11178,7 +11203,7 @@ Item added to your cart
                   class="grid__item scroll-trigger animate--slide-in"
                   
                     data-cascade
-                    style="--animation-order: 11;"
+                    style="--animation-order: 12;"
                   
                 >
                   
@@ -11334,7 +11359,7 @@ Item added to your cart
                   class="grid__item scroll-trigger animate--slide-in"
                   
                     data-cascade
-                    style="--animation-order: 12;"
+                    style="--animation-order: 13;"
                   
                 >
                   
@@ -11490,7 +11515,7 @@ Item added to your cart
                   class="grid__item scroll-trigger animate--slide-in"
                   
                     data-cascade
-                    style="--animation-order: 13;"
+                    style="--animation-order: 14;"
                   
                 >
                   
@@ -11638,162 +11663,6 @@ Item added to your cart
                       </svg>
                     </div>
                   </button><input type="hidden" name="product-id" value="10437271584949" /><input type="hidden" name="section-id" value="template--27264681672885__product-grid" /></form></product-form></div><div class="card__badge bottom left"></div>
-      </div>
-    </div>
-  </div>
-                </li>
-<li
-                  class="grid__item scroll-trigger animate--slide-in"
-                  
-                    data-cascade
-                    style="--animation-order: 14;"
-                  
-                >
-                  
-
-<link href="//bothellwa.paymore.com/cdn/shop/t/2/assets/component-rating.css?v=157771854592137137841775216955" rel="stylesheet" type="text/css" media="all" />
-<div class="card-wrapper product-card-wrapper underline-links-hover">
-    <div
-      class="
-        card
-        card--standard
-         card--media
-        
-        
-        
-        
-        
-      "
-      style="--ratio-percent: 100%;"
-    >
-      <div
-        class="card__inner color-scheme-ae4d632e-bb81-4298-8953-f7f24b098b87 gradient ratio"
-        style="--ratio-percent: 100%;"
-      ><div class="card__media">
-            <div class="media media--transparent media--hover-effect">
-              
-              <img
-                srcset="//bothellwa.paymore.com/cdn/shop/files/1778789645416xelk1z1.jpg?v=1778789720&width=165 165w,//bothellwa.paymore.com/cdn/shop/files/1778789645416xelk1z1.jpg?v=1778789720&width=360 360w,//bothellwa.paymore.com/cdn/shop/files/1778789645416xelk1z1.jpg?v=1778789720&width=533 533w,//bothellwa.paymore.com/cdn/shop/files/1778789645416xelk1z1.jpg?v=1778789720&width=720 720w,//bothellwa.paymore.com/cdn/shop/files/1778789645416xelk1z1.jpg?v=1778789720&width=940 940w,//bothellwa.paymore.com/cdn/shop/files/1778789645416xelk1z1.jpg?v=1778789720&width=1066 1066w,//bothellwa.paymore.com/cdn/shop/files/1778789645416xelk1z1.jpg?v=1778789720 1500w
-                "
-                src="//bothellwa.paymore.com/cdn/shop/files/1778789645416xelk1z1.jpg?v=1778789720&width=533"
-                sizes="(min-width: 1600px) 367px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-                alt="Product Image"
-                class="motion-reduce"
-                
-                  loading="lazy"
-                
-                width="1500"
-                height="1500"
-              >
-              
-</div>
-          </div><div class="card__content">
-          <div class="card__information">
-            <h3
-              class="card__heading"
-              
-            >
-              <a
-                href="/products/lenovo-thinkpad-p1-gen-6-16aph8-16-i9-13900h-2-6ghz-32gb-ram-1tb-ssd-rtx-2000-1778789717062-c1y8vok0v"
-                id="StandardCardNoMediaLink-template--27264681672885__product-grid-10437264408757"
-                class="full-unstyled-link"
-                aria-labelledby="StandardCardNoMediaLink-template--27264681672885__product-grid-10437264408757 NoMediaStandardBadge-template--27264681672885__product-grid-10437264408757"
-              >
-                Lenovo ThinkPad P1 Gen 6 16APH8 16&quot; i9-13900H 2.6GHz 32GB RAM 1TB SSD RTX 2000
-              </a>
-            </h3>
-          </div>
-          <div class="card__badge bottom left"></div>
-        </div>
-      </div>
-      <div class="card__content">
-        <div class="card__information">
-          <h3
-            class="card__heading h5"
-            
-              id="title-template--27264681672885__product-grid-10437264408757"
-            
-          >
-            <a
-              href="/products/lenovo-thinkpad-p1-gen-6-16aph8-16-i9-13900h-2-6ghz-32gb-ram-1tb-ssd-rtx-2000-1778789717062-c1y8vok0v"
-              id="CardLink-template--27264681672885__product-grid-10437264408757"
-              class="full-unstyled-link"
-              aria-labelledby="CardLink-template--27264681672885__product-grid-10437264408757 Badge-template--27264681672885__product-grid-10437264408757"
-            >
-              Lenovo ThinkPad P1 Gen 6 16APH8 16&quot; i9-13900H 2.6GHz 32GB RAM 1TB SSD RTX 2000
-            </a>
-          </h3>
-          <div class="card-information"><span class="visually-hidden">Vendor:</span>
-              <div class="caption-with-letter-spacing light">PayMore Bothell</div><span class="caption-large light"></span>
-<div
-  class="
-    price "
->
-  <div class="price__container"><div class="price__regular">
-      <span class="visually-hidden visually-hidden--inline">Regular price</span>
-      <span class="price-item price-item--regular">
-        $1,199.99 USD
-      </span>
-    </div>
-    <div class="price__sale">
-        <span class="visually-hidden visually-hidden--inline">Regular price</span>
-        <span>
-          <s class="price-item price-item--regular">
-            
-              
-            
-          </s>
-        </span><span class="visually-hidden visually-hidden--inline">Sale price</span>
-      <span class="price-item price-item--sale price-item--last">
-        $1,199.99 USD
-      </span>
-    </div>
-    <small class="unit-price caption hidden">
-      <span class="visually-hidden">Unit price</span>
-      <span class="price-item price-item--last">
-        <span></span>
-        <span aria-hidden="true">/</span>
-        <span class="visually-hidden">&nbsp;per&nbsp;</span>
-        <span>
-        </span>
-      </span>
-    </small>
-  </div></div>
-
-          </div>
-        </div><div class="quick-add no-js-hidden"><product-form><form method="post" action="/cart/add" id="quick-add-template--27264681672885__product-grid10437264408757" accept-charset="UTF-8" class="form" enctype="multipart/form-data" novalidate="novalidate" data-type="add-to-cart-form"><input type="hidden" name="form_type" value="product" /><input type="hidden" name="utf8" value="✓" /><input
-                    type="hidden"
-                    name="id"
-                    value="52513095123125"
-                    disabled
-                  >
-                  <button
-                    id="quick-add-template--27264681672885__product-grid10437264408757-submit"
-                    type="submit"
-                    name="add"
-                    class="quick-add__submit button button--full-width button--secondary"
-                    aria-haspopup="dialog"
-                    aria-labelledby="quick-add-template--27264681672885__product-grid10437264408757-submit title-template--27264681672885__product-grid-10437264408757"
-                    aria-live="polite"
-                    data-sold-out-message="true"
-                    
-                  >
-                    <span>Add to cart
-</span>
-                    <span class="sold-out-message hidden">
-                      Sold out
-                    </span><div class="loading-overlay__spinner hidden">
-                      <svg
-                        aria-hidden="true"
-                        focusable="false"
-                        class="spinner"
-                        viewBox="0 0 66 66"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
-                      </svg>
-                    </div>
-                  </button><input type="hidden" name="product-id" value="10437264408757" /><input type="hidden" name="section-id" value="template--27264681672885__product-grid" /></form></product-form></div><div class="card__badge bottom left"></div>
       </div>
     </div>
   </div>
@@ -12129,10 +11998,10 @@ Item added to your cart
                 class="pagination__item link"
                 aria-label="Page 3"
               >3</a></li><li><span class="pagination__item">&hellip;</span></li><li><a
-                href="/collections/newly-listed-devices?page=40"
+                href="/collections/newly-listed-devices?page=39"
                 class="pagination__item link"
-                aria-label="Page 40"
-              >40</a></li><li>
+                aria-label="Page 39"
+              >39</a></li><li>
             <a
               href="/collections/newly-listed-devices?page=2"
               class="pagination__item pagination__item--prev pagination__item-arrow link motion-reduce"
@@ -12484,27 +12353,7 @@ Item added to your cart
         playSlideshow: `Play slideshow`,
       };
     </script><script src="//bothellwa.paymore.com/cdn/shop/t/2/assets/predictive-search.js?v=162273246065392412141775216955" defer="defer"></script><style> h2 {color: #64bc46;} </style>
-<div id="shopify-block-Aajk0TllTV2lJZTdoT__15683396631634586217" class="shopify-block shopify-app-block"><script
-  id="chat-button-container"
-  data-horizontal-position=bottom_right
-  data-vertical-position=lowest
-  data-icon=chat_bubble
-  data-text=chat_with_us
-  data-color=#64bc46
-  data-secondary-color=#ffffff
-  data-ternary-color=#6a6a6a
-  
-    data-greeting-message=%F0%9F%91%8B+Welcome+to+PayMore%C2%AE+Stores+-+We+buy%2C+sell+and+trade+electronic+devices+while+keeping+our+customers+data+safe.+How+can+we+help+you%3F
-  
-  data-domain=bothellwa.paymore.com
-  data-shop-domain=bothellwa.paymore.com
-  data-external-identifier=jij2CcqEsV13WxRS9vE2ic9kIyuuyhgxO3NxdIKg9xQ
-  
->
-</script>
-
-
-</div><div id="shopify-block-ATG1GQkJ5ZzFySitMK__6216072097347670868" class="shopify-block shopify-app-block">
+<div id="shopify-block-ATG1GQkJ5ZzFySitMK__6216072097347670868" class="shopify-block shopify-app-block">
 <!-- BEGIN app snippet: announcement-bar -->
 
 
@@ -14220,6 +14069,26 @@ console.log("version-17")
     document.getElementById('myModal').style.display = 'none';
   }
 
+</script>
+
+
+</div><div id="shopify-block-Aajk0TllTV2lJZTdoT__15683396631634586217" class="shopify-block shopify-app-block"><script
+  id="chat-button-container"
+  data-horizontal-position=bottom_right
+  data-vertical-position=lowest
+  data-icon=chat_bubble
+  data-text=chat_with_us
+  data-color=#64bc46
+  data-secondary-color=#ffffff
+  data-ternary-color=#6a6a6a
+  
+    data-greeting-message=%F0%9F%91%8B+Welcome+to+PayMore%C2%AE+Stores+-+We+buy%2C+sell+and+trade+electronic+devices+while+keeping+our+customers+data+safe.+How+can+we+help+you%3F
+  
+  data-domain=bothellwa.paymore.com
+  data-shop-domain=bothellwa.paymore.com
+  data-external-identifier=jij2CcqEsV13WxRS9vE2ic9kIyuuyhgxO3NxdIKg9xQ
+  
+>
 </script>
 
 
